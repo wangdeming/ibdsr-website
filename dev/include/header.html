@@ -1,0 +1,215 @@
+
+    <header class="header">
+        <div class="container clearfix">
+            <a href="./index.html" class="logo fl"></a>
+            <nav class="nav clearfix fl">
+                @@if(context.index === "active") {
+                    <div class="nav-link active">
+                        <a class="" href="./index.html">
+                            <span>首页</span>
+                        </a>
+                    </div>
+                }
+                @@if(context.index !== "active") {
+                    <div class="nav-link">
+                        <a class="" href="./index.html">
+                            <span>首页</span>
+                        </a>
+                    </div>
+                }
+                @@if(context.about === "active") {
+                    <div class="nav-link active">
+                        <span>研究院概况</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./aboutUs.html">研究院简介</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./importantEvent.html">大事记</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.about !== "active") {
+                    <div class="nav-link">
+                        <span>研究院概况</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./aboutUs.html">研究院简介</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./importantEvent.html">大事记</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.news === "active") {
+                    <div class="nav-link active">
+                        <span>新闻资讯</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./newsInfo.html?nav=1">新闻动态</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./newsInfo.html?nav=2">媒体报道</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./newsInfo.html?nav=3">合作交流</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./leaderEvent.html">领导关怀</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.news !== "active") {
+                    <div class="nav-link">
+                        <span>新闻资讯</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./newsInfo.html?nav=1">新闻动态</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./newsInfo.html?nav=2">媒体报道</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./newsInfo.html?nav=3">合作交流</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./leaderEvent.html">领导关怀</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.center === "active") {
+                    <div class="nav-link active">
+                        <span>双创中心</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./centerIntroduction.html">中心简介</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./attractInvestment.html">招商公告</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.center !== "active") {
+                    <div class="nav-link">
+                        <span>双创中心</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./centerIntroduction.html">中心简介</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./attractInvestment.html">招商公告</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.school === "active") {
+                    <div class="nav-link active">
+                        <span>培训学校</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./school.html">学校简介</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./student.html">招生简章</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.school !== "active") {
+                    <div class="nav-link">
+                        <span>培训学校</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./school.html">学校简介</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./student.html">招生简章</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.jjfa === "active") {
+                    <div class="nav-link active">
+                        <span>解决方案</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./plan1.html">汽车监测与服务大数据</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./plan2.html">旅游大数据</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./plan3.html">民生大数据</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./plan4.html">人才大数据</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./plan5.html">新能源汽车产业分析</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.jjfa !== "active") {
+                    <div class="nav-link">
+                        <span>解决方案</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./plan1.html">汽车监测与服务大数据</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./plan2.html">旅游大数据</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./plan3.html">民生大数据</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./plan4.html">人才大数据</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./plan5.html">新能源汽车产业分析</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.rlzy === "active") {
+                    <div class="nav-link active">
+                        <span>人力资源</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./recruitment.html">人才招聘</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./staffPresence.html">员工风采</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./contactUs.html">联系我们</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                @@if(context.rlzy !== "active") {
+                    <div class="nav-link">
+                        <span>人力资源</span>
+                        <ul class="module-menu">
+                            <li class="menu-item">
+                                <a href="./recruitment.html">人才招聘</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./staffPresence.html">员工风采</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./contactUs.html">联系我们</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+            </nav>
+        </div>
+    </header>
+

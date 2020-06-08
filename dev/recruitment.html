@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('meta.html')
+    <title>人才招聘</title>
+    <link rel="stylesheet" href="css/joinUs.css">
+</head>
+<body>
+    <div id="wrapper">
+        @@include('header.html',{"rlzy": "active"})
+        <section id="recruitment">
+            <div class="bg">
+                <ul class="clearfix">
+                </ul>
+                <div class="menu">
+                    <ul id="nav">
+                        <li class="active">招聘岗位</li>
+                        <li>员工福利</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="aaa" >
+                <article class="aaa">
+                    <div class="container">
+                        <ul id="myTab">
+                        </ul>
+                        <div id="myTabContent" class="tab-content">
+                            <ul class="list" id="jobs">
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <section id="benefits">
+                        <div class="container">
+                            <ul>
+                                <li>
+                                    <img src="images/xinchou.svg">
+                                    <h5>薪酬</h5>
+                                    <p>十三薪<br>年终奖<br>五险一金<br>餐补<br>高温补贴<br>实习补贴</p>
+                                </li>
+                                <li>
+                                    <img src="images/anquna.svg">
+                                    <h5>安全</h5>
+                                    <p>商业保险<br>定期体检</p>
+                                </li>
+                                <li>
+                                    <img src="images/xiuyjia.svg">
+                                    <h5>休假</h5>
+                                    <p>双休<br>法定节假日<br>年休假</p>
+                                </li>
+                                <li>
+                                    <img src="images/guanhuai.svg">
+                                    <h5>关怀</h5>
+                                    <p>生日礼物<br>节日福利</p>
+                                </li>
+                                <li>
+                                    <img src="images/chengzhang.svg">
+                                    <h5>成长</h5>
+                                    <p>业务培训<br>技术分享<br>大小团建</p>
+                                </li>
+                                <li>
+                                    <img src="images/gonghuifuli.svg">
+                                    <h5>工会福利</h5>
+                                    <p>可以发声的工会组织，代<br>表工友利益的组织</p>
+                                </li>
+                                <li>
+                                    <img src="images/dangan.svg">
+                                    <h5>档案</h5>
+                                    <p>统一挂靠在单位名下，存<br>放在上饶市人才流动中心</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </article>
+            </div>
+             @@include('bomb.html')
+        </section>
+        <!-- 公用返回顶部 -->
+        <div id="goTop"></div>
+        @@include('footer.html')
+    </div>
+</body>
+<script src="./js/unit.js"></script>
+<script src="js/recruitment.js"></script>
+</html>

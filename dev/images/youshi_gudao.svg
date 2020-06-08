@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>youshi_gudao</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="旅游大数据" transform="translate(-614.000000, -1286.000000)" stroke="#99A0CE">
+            <g id="youshi_gudao" transform="translate(614.000000, 1286.000000)">
+                <use id="Oval-Copy" mask="url(#mask-2)" stroke-width="3" stroke-dasharray="4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M35.4812953,48.7907608 L30.4,52 L31.2903162,46.3769505 C29.1782852,44.4302916 28,41.7262391 28,38.7368421 C28,32.8070479 32.6362033,28 40,28 C47.3637967,28 52,32.8070479 52,38.7368421 C52,44.6666363 47.3637967,49.4736842 40,49.4736842 C38.3495903,49.4736842 36.8361929,49.2322169 35.4812953,48.7907608 Z M34.5714286,42 L40.5838509,42 L34.5714286,42 Z M34.5714286,35.7142857 L45.5031056,35.7142857 L34.5714286,35.7142857 Z" id="Chat" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

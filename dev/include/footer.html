@@ -1,0 +1,175 @@
+<footer id="footer">
+    <div class="footer">
+        <div class="general common">
+            <dl class="item">
+                <dt>研究院概况</dt>
+                <dd>
+                    <ul>
+                        <li><a href="./aboutUs.html" target="_blank">研究院简介</a></li>
+                        <li><a href="./importantEvent.html" target="_blank">大事记</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="item">
+                <dt>新闻资讯</dt>
+                <dd>
+                    <ul>
+                        <li><a href="./newsInfo.html?nav=1" target="_blank">新闻动态</a></li>
+                        <li><a href="./newsInfo.html?nav=2" target="_blank">媒体报道</a></li>
+                        <li><a href="./newsInfo.html?nav=3" target="_blank">合作交流</a></li>
+                        <li><a href="./leaderEvent.html" target="_blank">领导关怀</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="item">
+                <dt>双创中心</dt>
+                <dd>
+                    <ul>
+                        <li><a href="./centerIntroduction.html" target="_blank">中心简介</a></li>
+                        <li><a href="./attractInvestment.html" target="_blank">招商公告</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="item">
+                <dt>培训学校</dt>
+                <dd>
+                    <ul>
+                        <li><a href="./school.html" target="_blank">学校简介</a></li>
+                        <li><a href="./student.html" target="_blank">招生简章</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="item">
+                <dt>解决方案</dt>
+                <dd>
+                    <ul>
+                        <li><a href="./plan1.html" target="_blank">汽车监测与服务大数据</a></li>
+                        <li><a href="./plan2.html" target="_blank">旅游大数据</a></li>
+                        <li><a href="./plan3.html" target="_blank">民生大数据</a></li>
+                        <li><a href="./plan4.html" target="_blank">人才大数据</a></li>
+                        <li><a href="./plan5.html" target="_blank">新能源汽车产业分析</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="item">
+                <dt>人力资源</dt>
+                <dd>
+                    <ul>
+                        <li><a href="./recruitment.html" target="_blank">人才招聘</a></li>
+                        <li><a href="./staffPresence.html" target="_blank">员工风采</a></li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+        <div class="contact-us common">
+            <dl class="item">
+                <dt>联系我们</dt>
+                <dd>
+                    <ul>
+                        <li>联系方式：0793-8161215或0793-8163089</li>
+                        <li>电子邮箱：bigdata@ibdsr.cn</li>
+                        <li>通讯地址：江西省上饶市信州区锦绣路2号&nbsp;广信大厦A栋三楼</li>
+                        <li id="triggerBtn"><button class="leave-msg" onclick="clickMsg(1)"><img src="images/msg.png">我要留言</button></li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+        <div class="code common">
+            <img src="images/qrcode.png">
+        </div>
+    </div>
+    @@include('modelMsg.html')
+    <div class="footer-tips">版权所有 ©上饶市中科院云计算中心大数据研究院 赣ICP备17012524号</div>
+</footer>
+<script type="text/javascript">
+    var timeMaxMsg = 3
+    var messageSource = 1 //来源默认为1
+
+    function clickMsg(num){
+        timeMaxMsg = 3
+        messageSource = num
+        $('.bomb-msg').show()
+        $('.success-msg').hide()
+        $('.mask-msg').show()
+        $('#timeOutMsg').text(timeMaxMsg+'s')
+    }
+
+    var nameMsgRex =/^[\u4e00-\u9fa5]{2,4}$/ //姓名验证
+    var companyNameRex =/^[\u4e00-\u9fa5]{2,20}$/ //公司名称验证
+    var telRex =/^1[3456789]\d{9}$/ //手机
+    // 验证信息填写是否正确
+    function checkMsg() {
+        if(!$("#nameMsg").val()) {
+            alert('请填写姓名！')
+        }
+        else if(!nameMsgRex.test($("#nameMsg").val())) {
+            alert('姓名必须是2-4个汉字！')
+        }
+        else if(!$("#companyMsg").val()) {
+            alert('请填写企业名称！')
+        }
+        else if(!companyNameRex.test($("#companyMsg").val())) {
+            alert('企业名称必须是2-20个汉字！')
+        }
+        else if(!$("#contentMsg").val()) {
+            alert('请填写留言内容！')
+        }
+        else if($("#contentMsg").val().length > 300) {
+            alert('留言不能超过300个字数！')
+        }
+        else if(!telRex.test($("#phoneMsg").val())) {
+            alert('请填写正确的联系电话！')
+        }
+        else {
+            return true
+        }
+    }
+    // 提交留言
+
+    function commit() {
+        if(event.preventDefault) event.preventDefault();
+        else event.returnValue = false; 
+        if(checkMsg()) {
+            var hero={
+                'messageSource': messageSource,
+                "name": $("#nameMsg").val(),
+                "company": $("#companyMsg").val(),
+                "content": $("#contentMsg").val(),
+                "phone":$("#phoneMsg").val()
+            }
+            $.ajax({
+                    url: host + '/api/message/commit',
+                    type: 'post',
+                    headers:{'Content-Type':'application/json;charset=utf8'},
+                    data: JSON.stringify(hero),
+                    success: function(res) {
+                        if(res.code == 200) {
+                            $('.bomb-msg').hide()
+                            $('.success-msg').show()
+                            $(".identifier input").val('')
+                            $(".identifier textarea").val('')
+                            timerMsg = setInterval(function(){
+                                if(timeMaxMsg > 0) {
+                                    timeMaxMsg -- 
+                                    $('#timeOutMsg').text(timeMaxMsg+'s')
+                                } else {
+                                    $('.success-msg').hide()
+                                    $('.mask-msg').hide()
+                                    clearInterval(timerMsg)
+                                }
+                            },1000)
+                        } else {
+                            alert((res.message || '提交留言失败')+'！')
+                        }
+                    },
+                    error: function() {
+                        alert('提交留言失败！')
+                    }
+                })
+        }
+    }
+
+    $('#sendResumeMsg').click(function(){
+        commit()
+    })
+</script>

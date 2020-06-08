@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>youshi_yingxiao</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="旅游大数据" transform="translate(-1022.000000, -1286.000000)" stroke="#99A0CE">
+            <g id="youshi_yingxiao" transform="translate(1022.000000, 1286.000000)">
+                <use id="Oval-Copy-3" mask="url(#mask-2)" stroke-width="3" stroke-dasharray="4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M40,27 L40,32.714357 L40,27 Z M50.7805859,29.2857428 L47.9234431,34.2345211 L50.7805859,29.2857428 Z M29.6377288,29.2857428 L32.4948717,34.2345211 L29.6377288,29.2857428 Z M51.9325822,46.1750622 C52.0329515,46.3436957 52.0201809,46.5697989 51.9014223,46.7267507 L49.0312009,50.5200144 C48.7521109,50.8888605 48.2717305,50.950692 47.9368718,50.6608695 L44.3636364,48.0710503 L44.3636364,45.285643 C44.3674563,44.7838106 44.3674563,44.1968831 43.756087,44.1925434 L36.2753315,44.1925434 C35.6401836,44.1968831 35.6401836,44.7838106 35.6363636,45.285643 L35.6363636,48.0710503 L32.4595835,50.7700405 C32.1379091,51.0904671 31.6563047,51.0741519 31.3620577,50.7328599 L28.1118617,46.9630145 C27.9793653,46.8093343 27.9626598,46.5687636 28.0719786,46.3886938 C30.7994981,41.8960306 33.6423932,38.4810675 40.0537059,38.4293067 C46.4650185,38.3775459 49.2817868,41.7213787 51.9325822,46.1750622 Z" id="Ring" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

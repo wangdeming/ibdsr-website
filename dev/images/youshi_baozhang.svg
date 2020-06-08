@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>youshi_baozhang</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="旅游大数据" transform="translate(-1226.000000, -1535.000000)" stroke="#99A0CE">
+            <g id="youshi_baozhang" transform="translate(1226.000000, 1535.000000)">
+                <use id="Oval-Copy-7" mask="url(#mask-2)" stroke-width="3" stroke-dasharray="4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M40.5,28 L30,32.097561 L30,40.2926829 C30,45.6195122 34.48,50.524878 40.5,52 C46.52,50.524878 51,45.6195122 51,40.2926829 L51,32.097561 L40.5,28 Z" id="Security" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

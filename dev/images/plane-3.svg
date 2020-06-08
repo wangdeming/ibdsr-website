@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="344px" height="75px" viewBox="0 0 344 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>路径 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="93.3259089%" y1="50%" x2="0%" y2="49.7012655%" id="linearGradient-1">
+            <stop stop-color="#4DB7E8" offset="0%"></stop>
+            <stop stop-color="#B3E7FF" stop-opacity="0.653545673" offset="67.0212204%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-4.6%" y="-31.9%" width="109.1%" height="163.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="培训网页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="学校简介" transform="translate(-1067.000000, -3995.000000)" fill="url(#linearGradient-1)">
+            <g id="plane-1" transform="translate(1066.097656, 3948.028320)">
+                <path d="M321.507813,71.0664062 C314.523203,74.3959312 307.897179,78.9611121 300.688477,81.9716797 C282.662528,89.4998495 265.928498,93.9716797 267.029297,93.9716797 C268.570312,93.9716797 261.607422,99.0175781 196.333008,107.328125 C152.816732,112.86849 90.5891927,103.52832 9.65039062,79.3076172 L6.05175781,67.9716797 L12.0966797,65.0878906 C24.2047526,72.3235677 46.3063151,79.5345052 78.4013672,86.7207031 C126.543945,97.5 163.177734,99.1679687 196.333008,96.6347656 C229.488281,94.1015625 255.948242,86.7207031 273.90332,81.9716797 C291.858398,77.2226563 290.669886,77.3652344 304.834943,72 C314.278314,68.4231771 320.283854,65.2568359 322.851563,62.5009766 C338.255859,60.4410807 337.807943,63.296224 321.507813,71.0664062 Z" id="路径-5" filter="url(#filter-2)" transform="translate(170.065049, 85.364364) rotate(-1.000000) translate(-170.065049, -85.364364) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

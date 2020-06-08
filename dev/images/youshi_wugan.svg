@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>youshi_wugan</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="旅游大数据" transform="translate(-1022.000000, -1535.000000)" stroke="#99A0CE">
+            <g id="youshi_wugan" transform="translate(1022.000000, 1535.000000)">
+                <use id="Oval-Copy-8" mask="url(#mask-2)" stroke-width="3" stroke-dasharray="4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M40,45.7145578 C43.4715041,45.7145578 46.2857143,42.9004694 46.2857143,39.4291156 C46.2857143,35.9577617 43.4715041,33.1436734 40,33.1436734 C36.5284959,33.1436734 33.7142857,35.9577617 33.7142857,39.4291156 C33.7142857,42.9004694 36.5284959,45.7145578 40,45.7145578 Z M31.4285714,51.9623604 C31.6,49.4286827 34.8692627,45.7145578 40.0060599,45.7145578 C45.1428571,45.7145578 48.5714286,49.4286827 48.5714286,52 M49.2727273,28 C50.7789584,28 52,29.2209892 52,30.7271551 L52,49.2728453 C52,50.7187647 50.8278,52 49.3818181,52 L30.6181819,52 C29.1722,52 28,50.7187647 28,49.2728453 L28,30.6180684 C28,29.172149 29.1722,28 30.6181819,28 L49.2727273,28 Z" id="Avatar" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

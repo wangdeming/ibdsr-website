@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>youshi_juece</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="旅游大数据" transform="translate(-1430.000000, -1286.000000)" stroke="#99A0CE">
+            <g id="youshi_juece" transform="translate(1430.000000, 1286.000000)">
+                <use id="Oval-Copy-5" mask="url(#mask-2)" stroke-width="3" stroke-dasharray="4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M40,52 C46.627417,52 52,46.627417 52,40 C52,33.372583 46.627417,28 40,28 C33.372583,28 28,33.372583 28,40 C28,46.627417 33.372583,52 40,52 Z M40,28 C36.952381,32 35.4285714,36 35.4285714,40 C35.4285714,44 36.952381,48 40,52 C43.047619,48 44.5714286,44 44.5714286,40 C44.5714286,36 43.047619,32 40,28 Z M29.7142857,40 L51.4285714,40" id="Earth" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

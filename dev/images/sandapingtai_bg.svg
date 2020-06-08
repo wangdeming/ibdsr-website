@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="683px" height="317px" viewBox="0 0 683 317" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>sandapingtai_bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="4.24462427%" y1="38.4033165%" x2="97.5094967%" y2="60.5297469%" id="linearGradient-1">
+            <stop stop-color="#E3E3E3" offset="0%"></stop>
+            <stop stop-color="#BBBBBB" offset="46.789198%"></stop>
+            <stop stop-color="#DFDFDF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M157.014533,25.2650359 C80.4105759,50.2237772 31.2001181,89.0068467 31.2001181,132.559946 C31.2001181,184.579257 101.401953,229.793819 204.632351,252.776278 C213.215921,254.687262 222.027846,256.444535 231.046756,258.03923" id="path-2"></path>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="199.846638" height="232.774194" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <linearGradient x1="4.24462427%" y1="38.4033165%" x2="97.5094967%" y2="60.5297469%" id="linearGradient-4">
+            <stop stop-color="#B1B1B1" offset="0%"></stop>
+            <stop stop-color="#DFDFDF" offset="40.9185332%"></stop>
+            <stop stop-color="#DFDFDF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M170.011007,37.0472794 C102.223265,55.7870882 58.6763528,84.9066379 58.6763528,117.607676 C58.6763528,153.21044 110.294416,184.567908 188.615555,202.906765" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="129.939202" height="165.859486" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <radialGradient cx="42.3117898%" cy="37.8046158%" fx="42.3117898%" fy="37.8046158%" r="64.0373718%" id="radialGradient-7">
+            <stop stop-color="#B7B7B7" offset="0%"></stop>
+            <stop stop-color="#656565" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="4.24462427%" y1="38.4033165%" x2="97.5094967%" y2="60.5297469%" id="linearGradient-8">
+            <stop stop-color="#D2D2D2" offset="0%"></stop>
+            <stop stop-color="#F4F4F4" offset="40.9185332%"></stop>
+            <stop stop-color="#BBBBBB" offset="100%"></stop>
+        </linearGradient>
+        <path d="M505.007956,388.496274 C632.800072,363.472973 720.447502,312.058785 720.447502,252.696664 C720.447502,197.169872 643.759832,148.597173 529.261982,122.072766" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="215.439546" height="266.423508" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <linearGradient x1="4.24462427%" y1="38.4033165%" x2="97.5094967%" y2="60.5297469%" id="linearGradient-11">
+            <stop stop-color="#A1A1A1" offset="0%"></stop>
+            <stop stop-color="#C8C8C8" offset="65.3698519%"></stop>
+            <stop stop-color="#DFDFDF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M539.336737,349.973588 C631.379468,327.447029 692.726872,287.073425 692.726872,241.014683 C692.726872,194.281967 629.570949,153.401987 535.276554,131.078392" id="path-12"></path>
+        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="157.450319" height="218.895196" fill="white">
+            <use xlink:href="#path-12"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-363.000000, -885.000000)" fill-rule="nonzero">
+            <g id="sandapingtai_bg" transform="translate(327.000000, 847.000000)">
+                <use id="Oval" stroke="url(#linearGradient-1)" mask="url(#mask-3)" stroke-width="3" stroke-dasharray="8" transform="translate(131.123437, 141.652133) rotate(18.000000) translate(-131.123437, -141.652133) " xlink:href="#path-2"></use>
+                <use id="Oval" stroke="url(#linearGradient-4)" mask="url(#mask-6)" stroke-width="3" stroke-dasharray="8" transform="translate(123.645954, 119.977022) rotate(18.000000) translate(-123.645954, -119.977022) " xlink:href="#path-5"></use>
+                <circle id="Oval" fill="url(#radialGradient-7)" cx="92" cy="69" r="7"></circle>
+                <use id="Oval" stroke="url(#linearGradient-8)" mask="url(#mask-10)" stroke-width="3" stroke-dasharray="8" transform="translate(612.727729, 255.284520) rotate(18.000000) translate(-612.727729, -255.284520) " xlink:href="#path-9"></use>
+                <use id="Oval" stroke="url(#linearGradient-11)" mask="url(#mask-13)" stroke-width="3" stroke-dasharray="8" transform="translate(614.001713, 240.525990) rotate(18.000000) translate(-614.001713, -240.525990) " xlink:href="#path-12"></use>
+                <circle id="Oval" fill="url(#radialGradient-7)" cx="636" cy="346" r="9"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

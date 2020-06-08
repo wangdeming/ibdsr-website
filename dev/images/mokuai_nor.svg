@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="55px" viewBox="0 0 64 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>mokuai_nor</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="新能源汽车产业分析" transform="translate(-1353.000000, -611.000000)" stroke="#666666" stroke-width="3">
+            <g id="mokuai_nor" transform="translate(1353.000000, 611.000000)">
+                <rect id="Rectangle-path" x="20.645" y="2" width="22.725" height="14.295"></rect>
+                <rect id="Rectangle-path" x="2" y="44" width="14.295" height="9"></rect>
+                <rect id="Rectangle-path" x="24.845" y="44" width="14.295" height="9"></rect>
+                <rect id="Rectangle-path" x="47.705" y="44" width="14.295" height="9"></rect>
+                <polyline id="Shape" points="9.155 44 9.155 27.5 54.845 27.5 54.845 44"></polyline>
+                <path d="M32,16.295 L32,44" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

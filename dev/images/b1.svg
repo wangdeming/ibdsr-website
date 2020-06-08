@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760px" height="418px" viewBox="0 0 760 418" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>编组 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="16.2399932%" y1="26.5202895%" x2="85.0542621%" y2="71.3194926%" id="linearGradient-1">
+            <stop stop-color="#E3E3E3" offset="0%"></stop>
+            <stop stop-color="#BBBBBB" offset="46.789198%"></stop>
+            <stop stop-color="#DFDFDF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M126.014533,0.2650359 C49.4105759,25.223777 0.2001181,64.006847 0.2001181,107.559946 C0.2001181,159.579257 70.401953,204.793819 173.632351,227.776278 C182.215921,229.687262 191.027846,231.444535 200.046756,233.03923" id="path-2"></path>
+        <linearGradient x1="4.24462427%" y1="38.4033165%" x2="97.5094967%" y2="60.5297469%" id="linearGradient-4">
+            <stop stop-color="#E3E3E3" offset="0%"></stop>
+            <stop stop-color="#BBBBBB" offset="46.789198%"></stop>
+            <stop stop-color="#DFDFDF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="21.5050079%" y1="26.5202895%" x2="79.5874028%" y2="71.3194926%" id="linearGradient-5">
+            <stop stop-color="#B1B1B1" offset="0%"></stop>
+            <stop stop-color="#DFDFDF" offset="40.9185332%"></stop>
+            <stop stop-color="#DFDFDF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M112.011007,0.0472794 C44.223265,18.787088 0.6763528,47.906638 0.6763528,80.607676 C0.6763528,116.21044 52.294416,147.567908 130.615555,165.906765" id="path-6"></path>
+        <linearGradient x1="4.24462427%" y1="38.4033165%" x2="97.5094967%" y2="60.5297469%" id="linearGradient-8">
+            <stop stop-color="#B1B1B1" offset="0%"></stop>
+            <stop stop-color="#DFDFDF" offset="40.9185332%"></stop>
+            <stop stop-color="#DFDFDF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="20.0548078%" y1="26.5202895%" x2="81.0931992%" y2="71.3194926%" id="linearGradient-9">
+            <stop stop-color="#D2D2D2" offset="0%"></stop>
+            <stop stop-color="#F4F4F4" offset="40.9185332%"></stop>
+            <stop stop-color="#BBBBBB" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.007956,266.496274 C127.800072,241.472973 215.447502,190.058785 215.447502,130.696664 C215.447502,75.169872 138.759832,26.597173 24.261982,0.072766" id="path-10"></path>
+        <linearGradient x1="4.24462427%" y1="38.4033165%" x2="97.5094967%" y2="60.5297469%" id="linearGradient-12">
+            <stop stop-color="#D2D2D2" offset="0%"></stop>
+            <stop stop-color="#F4F4F4" offset="40.9185332%"></stop>
+            <stop stop-color="#BBBBBB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="26.1840412%" y1="26.5202895%" x2="74.7289897%" y2="71.3194926%" id="linearGradient-13">
+            <stop stop-color="#A1A1A1" offset="0%"></stop>
+            <stop stop-color="#C8C8C8" offset="65.3698519%"></stop>
+            <stop stop-color="#DFDFDF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M4.336737,218.973588 C96.379468,196.447029 157.726872,156.073425 157.726872,110.014683 C157.726872,63.281967 94.570949,22.401987 0.276554,0.078392" id="path-14"></path>
+        <linearGradient x1="4.24462427%" y1="38.4033165%" x2="97.5094967%" y2="60.5297469%" id="linearGradient-16">
+            <stop stop-color="#A1A1A1" offset="0%"></stop>
+            <stop stop-color="#C8C8C8" offset="65.3698519%"></stop>
+            <stop stop-color="#DFDFDF" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="42.3117898%" cy="37.8046158%" fx="42.3117898%" fy="37.8046158%" r="64.0373718%" id="radialGradient-17">
+            <stop stop-color="#B7B7B7" offset="0%"></stop>
+            <stop stop-color="#656565" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-2" transform="translate(0.874073, 0.099339)">
+            <g id="Oval" stroke-dasharray="7.999999999999999" transform="translate(132.500000, 143.000000) rotate(18.000000) translate(-132.500000, -143.000000) translate(32.000000, 26.000000)">
+                <g id="path-2-Clipped">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="path-2"></g>
+                    <path d="M126.014533,0.2650359 C49.4105759,25.223777 0.2001181,64.006847 0.2001181,107.559946 C0.2001181,159.579257 70.401953,204.793819 173.632351,227.776278 C182.215921,229.687262 191.027846,231.444535 200.046756,233.03923" id="path-2" stroke="url(#linearGradient-4)" stroke-width="3" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+            <g id="Oval" stroke-dasharray="7.999999999999999" transform="translate(124.625970, 120.854435) rotate(18.000000) translate(-124.625970, -120.854435) translate(59.125970, 37.854435)">
+                <g id="path-5-Clipped">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <g id="path-5"></g>
+                    <path d="M112.011007,0.0472794 C44.223265,18.787088 0.6763528,47.906638 0.6763528,80.607676 C0.6763528,116.21044 52.294416,147.567908 130.615555,165.906765" id="path-5" stroke="url(#linearGradient-8)" stroke-width="3" mask="url(#mask-7)"></path>
+                </g>
+            </g>
+            <g id="Oval" stroke-dasharray="7.999999999999999" transform="translate(614.046014, 256.474251) rotate(18.000000) translate(-614.046014, -256.474251) translate(506.046014, 122.974251)">
+                <g id="path-14-Clipped">
+                    <mask id="mask-11" fill="white">
+                        <use xlink:href="#path-10"></use>
+                    </mask>
+                    <g id="path-14"></g>
+                    <path d="M0.007956,266.496274 C127.800072,241.472973 215.447502,190.058785 215.447502,130.696664 C215.447502,75.169872 138.759832,26.597173 24.261982,0.072766" id="path-14" stroke="url(#linearGradient-12)" stroke-width="3" mask="url(#mask-11)"></path>
+                </g>
+            </g>
+            <g id="Oval" stroke-dasharray="7.999999999999999" transform="translate(615.134042, 241.401404) rotate(18.000000) translate(-615.134042, -241.401404) translate(536.134042, 131.901404)">
+                <g id="path-17-Clipped">
+                    <mask id="mask-15" fill="white">
+                        <use xlink:href="#path-14"></use>
+                    </mask>
+                    <g id="path-17"></g>
+                    <path d="M4.336737,218.973588 C96.379468,196.447029 157.726872,156.073425 157.726872,110.014683 C157.726872,63.281967 94.570949,22.401987 0.276554,0.078392" id="path-17" stroke="url(#linearGradient-16)" stroke-width="3" mask="url(#mask-15)"></path>
+                </g>
+            </g>
+            <circle id="Oval" fill="url(#radialGradient-17)" fill-rule="nonzero" cx="93.1259271" cy="69.9006615" r="7"></circle>
+            <circle id="Oval" fill="url(#radialGradient-17)" fill-rule="nonzero" cx="637.125927" cy="346.900661" r="9"></circle>
+        </g>
+    </g>
+</svg>

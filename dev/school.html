@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    @@include('meta.html')
+    <title>学校简介</title>
+    <link rel="stylesheet" href="css/school.css" />
+  </head>
+  <body>
+    <div id="wrapper" class="school">
+      @@include('header.html',{"school": "active"})
+      <section>
+        <div class="bg">
+          <div class="animationer">
+            <p class="jq"><img src="images/banner-02.svg" alt="" /></p>
+            <p class="mysql"><img src="images/banner-03.svg" alt="" /></p>
+            <p class="smm"><img src="images/banner-04.svg" alt="" /></p>
+          </div>
+        </div>
+        <!-- 学校概况 -->
+        <div class="incubation-center">
+          <div class="box">
+            <div class="video">
+              <img src="images/zhengshu.svg" />
+            </div>
+            <div class="info">
+              <p>
+                上饶市中科大数据职业培训学校（以下简称“学校”）由大数据研究院发起并由上饶市人力资源和社会保障局批准成立。以培养大数据技术与应用人才为目标，采取自主招生培养、与高校合作培养、为企业定向培养三种人才培养方式。学校充分发挥中科院大数据研究院的品牌、师资优势，为广大有志于从事大数据行业的人士提供优越的IT技能培训机会，并为成人学员推荐就业，同时学校也将在全市中、小学生中逐步推广编程教育。
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- 教学理念 -->
+        <div class="concept">
+          <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p class="moveView1"><img src="images/font-1.svg" alt="" /></p>
+        </div>
+        <!-- 管理团队 -->
+        <div class="team">
+          <h4>管理团队</h4>
+          <p>
+            学校管理设校长1名、顾问1名，教学团队目前拥有5名博士、20多名硕士。
+          </p>
+          <ul>
+            <li><img src="images/Group 10 Copy.svg" /></li>
+            <li><img src="images/Group 10 Copy 2.svg" /></li>
+          </ul>
+        </div>
+        <!-- 面向人群 -->
+        <div class="target">
+          <div class="adult">
+            <div class="moveView1">
+              <p>成人IT职业技能培训</p>
+              <pre>
+培训对象： 高中及以上学历人员
+培训范围： · 技术培训
+                  · 项目实践
+                  · 就业资格
+                  · 职业资格    
+                        </pre
+              >
+            </div>
+          </div>
+          <div class="child">
+            <div class="moveView1">
+              <p>少儿编程培训</p>
+              <pre>
+培训对象： 3～18岁人员
+培训范围： · 编程思维
+                  · 游戏编程
+                  · 趣味开发
+                  · 人工智能编程基础
+                  · 智能机器人
+                  · 编程语言
+                  · 高考学科编程辅导  
+                        </pre
+              >
+            </div>
+          </div>
+        </div>
+        <!-- 办公环境 -->
+        <div class="environment">
+          <h4>教学环境</h4>
+          <p class="p1">
+            <b>尚嘉宾馆</b
+            >校区：江西省上饶市信州区志敏大道399号江西医学高等专科学校对面
+          </p>
+          <p>
+            <b>房地产大厦</b>校区：江西省上饶市信州区赣东北大道42号
+            房地产大厦11层
+          </p>
+          <ul class="images">
+            <li><img class="" src="images/photo-1.png" alt="" /></li>
+            <li><img class="" src="images/photo-2.png" alt="" /></li>
+            <li><img class="" src="images/photo-3.png" alt="" /></li>
+            <li><img class="" src="images/photo-4.png" alt="" /></li>
+          </ul>
+          <ul class="circles">
+            <li class="p2">双校区</li>
+            <li class="p3">
+              >1500㎡
+              <p>场地面积</p>
+            </li>
+            <li class="p4">配套设施齐全</li>
+          </ul>
+        </div>
+        <!-- 口号 -->
+        <div class="tip">
+          <div class="tipCon">
+            <p class="p-img moveView1">
+              <img class="" src="images/font-2.svg" alt="" />
+            </p>
+            <p class="planeBig moveView1">
+              <img src="images/plane-1.svg" alt="" />
+            </p>
+            <p class="planeSmall moveView1">
+              <img src="images/plane-2.svg" alt="" />
+            </p>
+          </div>
+        </div>
+        <!-- 二维码 -->
+        <div class="schoolCode">
+          <p>更多学校资讯可关注 官方微信公众号</p>
+          <p><img src="images/school_erweima.svg" alt="" /></p>
+        </div>
+        <!-- 公用返回顶部 -->
+        <div id="goTop"></div>
+      </section>
+      @@include('footer.html')
+    </div>
+  </body>
+  <script src="./js/unit.js"></script>
+  <script>
+    // 页面飞入动画效果
+    var items = document.querySelectorAll(".moveView1");
+    var items01 = document.querySelectorAll(".light");
+    window.addEventListener("load", callbackFunc(items, "fadeIn", 0));
+    window.addEventListener("load", callbackFunc(items01, "highLight", 0));
+    window.onscroll = function() {
+      callbackFunc(items, "fadeIn", 0);
+      callbackFunc(items01, "highLight", 0);
+    };
+  </script>
+</html>

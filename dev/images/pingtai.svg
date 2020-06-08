@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>pingtai</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-1356.000000, -2907.000000)" stroke="#0590FF" stroke-width="2">
+            <g id="Group-7" transform="translate(374.000000, 2908.000000)">
+                <g id="pingtai" transform="translate(983.000000, 0.000000)">
+                    <path d="M26.0325,24.1725 L16.53975,29.394 C15.12,30.1755 13.3935,30.1755 11.97375,29.394 L2.469,24.1725 C0.95925,23.34075 0,21.75375 0,20.03025 L0,9.96975 C0,8.24625 0.957,6.6585 2.46675,5.8275 L11.9595,0.606 C13.37925,-0.1755 15.10575,-0.1755 16.5255,0.606 L26.03025,5.8275 C27.54,6.6585 28.5,8.24625 28.5,9.96975 L28.5,20.03025 C28.5,21.75375 27.54225,23.34075 26.0325,24.1725 L26.0325,24.1725 Z" id="Shape"></path>
+                    <polyline id="Shape" points="27.2775 7.8945 14.25 15 1.22325 7.8945"></polyline>
+                    <path d="M14.25,15 L14.25,29.25" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

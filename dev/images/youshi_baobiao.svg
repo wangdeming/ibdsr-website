@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>youshi_baobiao</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="旅游大数据" transform="translate(-818.000000, -1286.000000)" stroke="#99A0CE">
+            <g id="youshi_baobiao" transform="translate(818.000000, 1286.000000)">
+                <use id="Oval-Copy-2" mask="url(#mask-2)" stroke-width="3" stroke-dasharray="4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M30.509091,28 L48.490909,28 C49.8766417,28 51,28.9628786 51,30.1506494 L51,48.8493506 C51,50.0371214 49.8766417,51 48.490909,51 L30.509091,51 C29.1233583,51 28,50.0371214 28,48.8493506 L28,30.1506494 C28,28.9628786 29.1233583,28 30.509091,28 Z M28,36.2142857 L51,36.2142857 L28,36.2142857 Z M41.0880952,32.1071429 L41.197619,32.1071429 L41.0880952,32.1071429 Z M36.597619,32.1071429 L36.7071429,32.1071429 L36.597619,32.1071429 Z M32.1071429,32.1071429 L32.2166667,32.1071429 L32.1071429,32.1071429 Z" id="Window" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="770px" viewBox="0 0 1920 770" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>lvyou_pingtaibg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="56.8334961%" y1="100%" x2="56.8334961%" y2="2.77555756e-15%" id="linearGradient-1">
+            <stop stop-color="#1B2041" offset="0%"></stop>
+            <stop stop-color="#394261" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="旅游大数据" transform="translate(0.000000, -1072.000000)" fill="url(#linearGradient-1)">
+            <g id="Rectangle-2" transform="translate(0.000000, 1072.000000)">
+                <rect id="lvyou_pingtaibg" x="0" y="0" width="1920" height="770"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

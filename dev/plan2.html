@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('meta.html')
+    <title>旅游大数据</title>
+    <link rel="stylesheet" href="css/plan.css">
+</head>
+<body>
+    <!-- 类名公用(解决方案公用类名) -->
+    <div id="wrapper" class="plan">
+        @@include('header.html',{"jjfa": "active"})
+        <div class="plan_ad">
+            <img class="img_ad" src="images/plan_ad2.jpg" alt="">
+            <div class="desc">
+                <h2 class="js">旅游大数据</h2>
+                <p class="js">为景区智慧化建设提供一站式解决方案与服务</p>
+                <button class="js btn" onclick="clickMsg(3)">留言咨询</button>
+            </div>
+        </div>
+        <!-- 产品定位 -->
+        <div class=" plan_item plan_pos" style="padding-bottom: 0;">
+            <div class="container content">
+                <h2 class="title">产品定位</h2>
+                <p class="word">针对传统景区存在的信息化建设薄弱、管理困难、游客体验差等问题，采用SaaS模式研发旅游大数据云平台。平台包括智能售检票系统、景区在线商城、景区3D虚拟游、应急联动指挥系统、景区舆情监测分析系统、环境资源监测系统、智能分析决策系统，为景区提供一站式解决方案和服务、助力景区实现智慧管理、智慧服务、智慧营销。</p>
+                <img class="img js2" src="images/lvyou_dingwei.svg" alt="">
+            </div>
+        </div>
+
+         <!-- 产品优势 -->
+         <div class="plan_item plan_ys plan2">
+            <div class="container content">
+                <h2 class="title">平台优势</h2>
+                <p class="word">让旅游更顺畅、更便捷、更智慧；让管理更省心、更轻松、更科学。</p>
+                <div class="icon_list clearfix">
+                    <div class="item">
+                        <img src="images/youshi_houtai.svg" alt="">
+                        <p class="icon_title">后台统一登录</p>
+                        <p class="icon_desc">通过一个后台可以管理对接的全部系统，无需记录多个账户密码，分秒间实现各系统的切换。</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/youshi_gudao.svg" alt="">
+                        <p class="icon_title">打破信息孤岛</p>
+                        <p class="icon_desc">各系统之间数据交互，打破信息孤岛问题。</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/youshi_baobiao.svg" alt="">
+                        <p class="icon_title">可视化报表</p>
+                        <p class="icon_desc">各系统数据汇总分析，以多元化、可视化的形式展示数据分析结果。</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/youshi_yingxiao.svg" alt="">
+                        <p class="icon_title">精准营销</p>
+                        <p class="icon_desc">建立游客基础信息库，实现精准营销、智慧营销。</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/youshi_dignwei.svg" alt="">
+                        <p class="icon_title">巡更定位</p>
+                        <p class="icon_desc">对巡更人员进行定位，便于紧急调动。</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/youshi_juece.svg" alt="">
+                        <p class="icon_title">智慧决策</p>
+                        <p class="icon_desc">拥有一整套完整的景区智慧化管理决策数据支撑体系，为景区管理和运营提供准确决策依据。</p>
+                    </div>
+                    <div class="item"></div>
+                    <div class="item">
+                        <img src="images/youshi_tiyan.svg" alt="">
+                        <p class="icon_title">超前体验</p>
+                        <p class="icon_desc">游玩前可通过网站、公众号实现3D虚拟游与电子导览超前体验。</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/youshi_wuyou.svg" alt="">
+                        <p class="icon_title">出行无忧</p>
+                        <p class="icon_desc">支持网站、公众号、自助售票机、窗口等线上线下多渠道购买门票、预订酒店、购买特产。</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/youshi_wugan.svg" alt="">
+                        <p class="icon_title">无感入园</p>
+                        <p class="icon_desc">购票后，游客可凭纸质、电子、证照或生物识别方式自行验检入园。</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/youshi_baozhang.svg" alt="">
+                        <p class="icon_title">安全保障</p>
+                        <p class="icon_desc">应急报警方式多样，机制灵活，全方面保障游客出行安全。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 技术架构 -->
+        <div class=" plan_item plan_pos">
+            <div class="container content">
+                <h2 class="title" style="margin-bottom: 40px;">技术架构</h2>
+                <!-- <img class="img js2" src="images/jishujiagou@2x.png" alt="" style="width: 100%;"> -->
+                <img class="img js2" src="images/jishujiagou.png" style="width: 100%;" alt="">
+            </div>
+            <div class="container content" style="margin-top: 70px;">
+                <h2 class="title" style="margin-bottom: 40px;">核心技术</h2>
+                <div class="hx-list clearfix">
+                    <div class="hx-item fl">
+                        <img src="images/monitor.svg" alt="">
+                        <p class="name">RabbitMQ消息中间件</p>
+                    </div>
+                    <div class="hx-item fl">
+                        <img src="images/oculus.svg" alt="">
+                        <p class="name">Redis和Mybatis二级缓存</p>
+                    </div>
+                    <div class="hx-item fl">
+                        <img src="images/angle.svg" alt="">
+                        <p class="name">微服务</p>
+                    </div>
+                    <div class="hx-item fl">
+                        <img src="images/glove.svg" alt="">
+                        <p class="name">语义分析</p>
+                    </div>
+                    <div class="hx-item fl">
+                        <img src="images/vr.svg" alt="">
+                        <p class="name">3D虚拟现实技术</p>
+                    </div>
+                    <div class="hx-item fl">
+                        <img src="images/gps.svg" alt="">
+                        <p class="name">GPS定位信息</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 系统介绍 -->
+        <div class="plan_item plan_pos" style="padding: 0;">
+            <div class="container content">
+                <h2 class="title" style="margin-bottom: 40px;">系统介绍</h2>
+            </div>
+            <div class="plan2_rectangle">
+                <img class="img" src="images/rectangle_copy.jpg" alt="">
+                <div class="container content">
+                    <div class="tabBar clearfix" id="rectangle">
+                        <ul class="tab-list fl">
+                            <li class="tab active">
+                                <span>智能售检票系统</span>
+                            </li>
+                            <li class="tab">
+                                <span>景区在线商城</span>
+                            </li>
+                            <li class="tab">
+                                <span>景区3D虚拟游</span>
+                            </li>
+                            <li class="tab">
+                                <span>应急联动指挥系统</span>
+                            </li>
+                            <!-- <li class="tab">
+                                <span>景区舆情监测分析系统</span>
+                            </li> -->
+                        </ul>
+                        <div class="bar-box">
+                            <ul class="bar-list fl" id="js_bar">
+                                <li class="bar">
+                                    <div class="desc">
+                                        <p>实现门票和索道等票类的线上线下多渠道预订、支付购买，游客抵达景区后可凭纸质、电子、证照或生物识别方式检验入园，同时后台系统将对门票、优惠措施、会员卡、游客客源地、旅行社、导游等信息进行统一汇集和调配管理，并实时生成报表，为景区客流管理和多元化营销提供依据。</p>
+                                    </div>
+                                    <div class="platform-list" id="nav1">
+                                        <div class="platform-nav clearfix">
+                                            <div class="nav-item active fl">平台管理</div>
+                                            <div class="nav-item fl">售票端</div>
+                                            <div class="nav-item fl">检票端</div>
+                                        </div>
+                                        <div class="platform-detail">
+                                            <div class="item"><img src="./images/piaowuzhognxin.svg" alt=""></div>
+                                            <div class="item"><img src="./images/zhineng_shoupiaoduan@2x.png" alt=""></div>
+                                            <div class="item"><img src="./images/zhineng_jianpiao@2x.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="desc">
+                                        <p>立足景区，结合景区及周边资源，为游客提供线上门票预订、酒店预订、旅游产品购买及其他旅游资讯服务。景区在线商城可帮助景区整合周边资源，带动整体的经济，同时系统提供完备的业务管理能力，帮助管理者实时了解和优化景区产品销售策略。</p>
+                                    </div>
+                                    <div class="platform-list" id="nav2">
+                                        <div class="platform-nav clearfix">
+                                            <div class="nav-item active fl">后台管理</div>
+                                            <div class="nav-item fl">游客服务</div>
+                                        </div>
+                                        <div class="platform-detail">
+                                            <div class="item"><img src="./images/shangcheng_houtai.png" alt=""></div>
+                                            <div class="item"><img src="./images/shangcheng_youke@2x.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="desc">
+                                        <p>利用3D虚拟现实技术，构建虚拟旅游场景，从而打破时间、空间的局限，为游客提供足不出户而身临其境的旅游感受，同时为景区的宣传与推广助力。</p>
+                                    </div>
+                                    <div class="platform-list" id="nav3">
+                                        <div class="platform-nav clearfix">
+                                            <div class="nav-item active fl">后台管理</div>
+                                            <div class="nav-item fl">游客游览</div>
+                                        </div>
+                                        <div class="platform-detail">
+                                            <div class="item"><img src="./images/3d_houtai.png" alt=""></div>
+                                            <div class="item"><img src="./images/3d_qiantai.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="desc">
+                                        <p>利用GPS定位信息和互联网技术，为景区执行日常巡更等各类多人任务，以及紧急事件的处置，提供人员位置一屏监控、任务进展一览无余的指挥调度新方式。</p>
+                                    </div>
+                                    <div class="platform-list" id="nav4">
+                                        <div class="platform-nav clearfix">
+                                            <div class="nav-item active fl">后台管理</div>
+                                            <div class="nav-item fl">巡更APP</div>
+                                        </div>
+                                        <div class="platform-detail">
+                                            <div class="item"><img src="./images/yingji_houtai.png" alt=""></div>
+                                            <div class="item"><img src="./images/yingji_app.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- <li class="bar">
+                                    <div class="desc">
+                                        <p>我没找到文案</p>
+                                    </div>
+                                    <div class="platform-list">
+                                        <div class="platform-nav clearfix">
+                                            <div class="nav-item active fl">后台管理</div>
+                                            <div class="nav-item fl">巡更APP</div>
+                                        </div>
+                                        <div class="platform-detail">
+                                            <img style="margin-top: 50px;" src="./images/piaowuzhognxin.svg" alt="">
+                                        </div>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 应用案例 -->
+        <div class="plan_item plan_pos">
+            <div class="container content">
+                <h2 class="title" style="margin-bottom: 40px;">应用案例-上饶灵山风景名胜区</h2>
+                <img class="img js2" src="images/lingshan.jpg" alt="" style="width: 100%;">
+            </div>
+        </div>
+        <!-- 联系我们 -->
+        <div class="plan_concact">
+            <div class="container content">
+                <p class="word">如果您对旅游大数据平台感兴趣，请与我们联系！</p>
+                <p class="tel"><span>0793-8161215</span></p>
+                <button class="btn" onclick="clickMsg(3)">留言咨询</button>
+            </div>
+        </div>
+
+        <!-- 公用返回顶部 -->
+        <div id="goTop"></div>
+
+        @@include('footer.html')
+    </div>
+
+    <script>
+        
+        // 页面飞入动画效果
+        var items1 = document.querySelectorAll(".js");
+        var items2 = document.querySelectorAll(".js2");
+        // window.addEventListener("load", callbackFunc(items, 'fadeIn', 0));
+        window.onload = function() {
+            callbackFunc(items1, 'fadeIn', 0)
+            callbackFunc(items2, 'fadeIn', 400)
+        }
+        window.onscroll = function() {
+            callbackFunc(items1, 'fadeIn', 0)
+            callbackFunc(items2, 'fadeIn', 400)
+        }
+
+
+        var tab = $('#rectangle').find('.tab');
+        var barBom = $('#js_bar');
+        var length = tab.length;
+        var current = 0;
+
+        tab.click(function(){
+            for(var i=0;i<length;i++){
+                tab.eq(i).removeClass('active')
+            }
+            current = $(this).index()
+            $(this).addClass('active')
+
+            barBom.css('transform','translateY('+(-500*current)+'px)')
+        });
+
+        var nav = $('.platform-list');
+
+        function tabClick(idName) {
+            $('#' + idName).find('.nav-item').click(function(){
+                for(var j=0, len = $('#' + idName).find('.nav-item').length;j<len;j++) {
+                    $('#' + idName).find('.nav-item').eq(j).removeClass('active')
+                    $('#' + idName).find('.item').eq(j).hide()
+                }
+                $(this).addClass('active')
+                $('#' + idName).find('.item').eq($(this).index()).show()
+            })
+        }
+        tabClick('nav1')
+        tabClick('nav2')
+        tabClick('nav3')
+        tabClick('nav4')
+
+    </script>
+    <script src="./js/unit.js"></script>
+</body>
+</html>

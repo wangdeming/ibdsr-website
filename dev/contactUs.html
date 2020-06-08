@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('meta.html')
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/joinUs.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header-color">
+            @@include('header.html',{"rlzy": "active"})
+        </div>
+        <section id="contact-us">
+            <div id="container"></div>
+            <div class="list">
+                <ul>
+                    <li>
+                        <img src="images/dianhua.svg">
+                        <p>0793-8161215</p>
+                        <p>0793-8163089</p>
+                    </li>
+                    <li>
+                        <img src="images/youxiang.svg">
+                        <p>srdsj@zgsr.gov.cn</p>
+                    </li>
+                    <li>
+                        <img src="images/web.svg">
+                        <p>www.ibdsr.cn</p>
+                    </li>
+                    <li>
+                        <img src="images/gognzhonghao.svg">
+                        <p>微信公众号</p>
+                        <p>BigData_SR</p>
+                    </li>
+                    <li>
+                        <img src="images/dizhi.svg">
+                        <p>上饶市信州区锦绣路2号</p>
+                        <p>广信大厦A栋3楼</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        @@include('footer.html')
+    </div>
+</body>
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=9dd5a55c843428b33d87906d3fdcba3a"></script>
+<script type="text/javascript" src="js/contactUs.js"></script>
+
+</html>

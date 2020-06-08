@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('meta.html')
+    <title>中心简介</title>
+    <link rel="stylesheet" href="css/attractInvestment.css">
+</head>
+<body>
+    <div id="wrapper" class="attract">
+        @@include('header.html',{"center": "active"})
+        <section>
+            <div class="bg">
+                <ul class="clearfix">
+                    <div class="headline demo">
+                        <h1 class="item moveView1">上饶市创新创业产业孵化中心</h1>
+                        <p class="item moveView1 moveView2">大力扶持和帮助落户我市的大数据领域创新、创业企业快速成长，进而推动上饶市大数据产业蓬勃发展</p>
+                        <div class="application item moveView1 moveView3"><button class="btn" onclick="clickPop()">申请入驻</button></div>
+                    </div>
+                </ul>
+            </div>
+            <!-- 孵化中心 -->
+            <div class="incubation-center">
+                <div class="box">
+                    <div class="video">
+                        <video id="video1" width="720" height="405" controls autoplay>
+                            <source src="images/video/incubator.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="info">
+                        <p>上饶市创新创业孵化中心（以下简称“双创中心”）是上饶市政府与中科院云计算中心所签订的共建云计算产业基地重大战略合作
+                            协议上的重要项目，是上饶市大数据领域创新、创业企业孵化服务平台，主要面向智慧城市建设领域培育由孵化企业、转化企业、领
+                            军企业构成的大数据产业集群，助力上饶市智慧城市建设，其主要使命是由5年左右的时间打造一个国家级孵化器。该平台建设由上
+                            饶市中科院云计算中心大数据研究院负责。
+                        </p>
+                        <div class="pic clearfix">
+                            <img class="fl" src="images/tongpai_caizheng.jpg">
+                            <img class="fr" src="images/tongpai_baozhang.jpg">
+                        </div>
+                    </div>
+                    <div class="bg-video"></div>
+                </div>
+            </div>
+            <!-- 入孵政策 -->
+            <div class="hatching-policy">
+                <div class="common-block">
+                    <h2 class="title f24 color-333">入孵政策</h2>
+                </div>
+                <div class="dh sfq accordion">
+                    <ul>
+                        <li class="curr img1">
+                            <div class="layer">
+                                <p class="p1"><span class="col2">引进第三方服务机构</span></p>
+                                <p class="p2" style="width: 488px;"><b class="col2">引进第三方</b>
+                                    <span class="col1">上饶市中科云富基金管理有限公司&emsp;江西鸿业投资管理有限公司<br>
+                                    上饶市卓成企业管理服务有限公司&emsp;江西贤和律师事务所<br>
+                                    上饶市卓成会计服务有限公司&emsp;&emsp;上饶市卓越人力资源有限公司</span></p>
+                            </div>
+                        </li>
+                        <li class="img2">
+                            <div class="layer">
+                                <p class="p1"><span class="col2">实时响应</span></p>
+                                <p class="p2" style="width: 344px;"><b class="col2">实时响应</b>
+                                    <span class="col1">提供工商、财税及人员招聘免费服务。<br>
+                                    根据入孵企业的不同需求，提供定制化服务</span></p>
+                            </div>
+                        </li>
+                        <li class="img3">
+                            <div class="layer">
+                                <p class="p1"><span class="col2">技术服务</span></p>
+                                <p class="p2" style="width: 600px;"><b class="col2">技术服务</b>
+                                    <span class="col1">依托研究院强大的技术研发力量，向入孵企业在技术研发方面提供技术支持。<br>
+                                        如支持蓝桔科技公司汽车后市场项目技术开发、据点科技公司电子书项目技术开发等。
+                                    </span></p>
+                            </div>
+                        </li>
+                        <li class="img4">
+                            <div class="layer">
+                                <p class="p1"><span class="col2">税收奖励政策</span></p>
+                                <p class="p2" style="width: 584px;"><b class="col2">税收奖励政策</b>
+                                    <span class="col1">双创中心与上饶市信州区信息产业园、上饶高铁经济试验区管理委员会签约，<br>
+                                        入驻我中心企业可享受的相应税收奖励政策。
+                                    </span></p>
+                            </div>
+                        </li>
+                        <li class="img5 last">
+                            <div class="layer">
+                                <p class="p1"><span class="col2">服务体系</span></p>
+                                <p class="p2" style="width: 344px;"><b class="col2">服务体系</b>
+                                    <span class="col1">人才引进&emsp;技术服务&emsp;知识产权&emsp;市场推广<br>
+                                        融资投资&emsp;基础设施&emsp;项目推介&emsp;交流培训<br>
+                                        创业辅导&emsp;财务法律&emsp;......
+                                    </span></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 办公环境 -->
+            <div class="environment">
+                <div class="container">
+                    <div class="common-block">
+                        <h2 class="title f24 color-333">优质的办公环境，完备的办公设施</h2>
+                    </div>
+    
+                    <!-- 一般布局 -->
+                    <div class="photo-show clearfix">
+                        <div class="item item1">
+                            <img class="scalePic" src="images/shuangchuang_pic1@2x.jpg" alt="">
+                        </div>
+                        <div class="item item2">
+                            <img class="scalePic" src="images/shuangchuang_pic2@2x.jpg" alt="">
+                        </div>
+                        <div class="item item3">
+                            <img class="scalePic" src="images/shuangchuang_pic3@2x.jpg" alt="">
+                        </div>
+                        <div class="item item4">
+                            <img class="scalePic" src="images/shuangchuang_pic4@2x.jpg" alt="">
+                        </div>
+                        <div class="item item5">
+                            <img class="scalePic" src="images/shuangchuang_pic5@2x.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 入孵企业 -->
+            <div class="hatching-enterprise">
+                <div class="matter">
+                    <div class="box">
+                        <h1 class="moveView1">已入孵企业</h1>
+                        <p class="item moveView1 moveView2">截止2019年7月,双创中心入孵企业85家,其中国家级高新技术企业两家,入孵企业员工总人数超过400人</p>
+                        <img src="images/qiyeqiang.svg" class="item moveView1 moveView3">
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="application"><button class="btn" onclick="clickPop()">申请入驻</button></div>
+                <div class="tel"><img src="images/tel.svg">0793-8161559</div>
+            </div>
+            @@include('model.html')
+            <!-- 公用返回顶部 -->
+            <div id="goTop"></div>
+        </section>
+        @@include('footer.html')
+    </div>
+</body>
+<script src="./js/unit.js"></script>
+<script type="text/javascript" src="js/centerIntroduction.js"></script>
+</html>

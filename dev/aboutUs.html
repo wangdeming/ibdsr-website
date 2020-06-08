@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        @@include('meta.html')
+
+        <title>研究院简介</title>
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/swiper.min.css" />
+
+        <script src="js/swiper.min.js"></script>
+    </head>
+    <body>
+        <div id="wrapper" class="aboutUs">
+            @@include('header.html',{"about": "active"})
+            <!-- banner -->
+            <div class="banner">
+                <ul class="clearfix">
+                    <li class="banner-item cloudBox aboutUs fl">
+                        <div class="bg1">
+                            <!-- 云朵飘动效果 -->
+                            <div class="cloud cloud1"></div>
+                            <div class="cloud cloud2"></div>
+                        </div>
+                        <div class="bg2"></div>
+                        <div class="bg_mask"></div>
+                        <div class="container">
+                            <p class="intr color-fff f16">
+                                <strong>上饶市中科院云计算中心大数据研究院</strong>
+                                <span
+                                    >（以下简称"研究院"）于2016年8月正式注册成为上饶市事业法人单位，是在上饶市市委市政府的指导与支持下，由上饶市人民政府与中国科学院云计算产业技术创新与育成中心共同支持建立的，是江西省首个大数据领域创新型研发机构。</span
+                                >
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 组织架构 -->
+            <div class="part struct">
+                <div class="container">
+                    <div class="common-block">
+                        <h2 class="title f24 color-333">组织架构</h2>
+                        <p class="tip color-666"
+                            >研究院在理事会领导下实行执行院长负责制，根据理事会决议，由执行院长主持召开的院务会负责管理整个研究院的运营工作，同时对研究院重大事项做出决策。专家咨询团队为研究院的管理提供辅助决策作用，通过顾问、咨询、评审、评估等行为科学引导研究院的发展。</p
+                        >
+                    </div>
+                    <div class="map ">
+                        <!-- @@include('struct.html') -->
+                        <img class="moveView" src="images/zuzhijiagou .svg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- 专家团队 -->
+            <div class="part expert">
+                <div class="container">
+                    <div class="common-block">
+                        <h2 class="title f24 color-fff">专家团队</h2>
+                        <p class="tip color-fff">
+                            研究院成立伊始，即聘请了李国杰院士（中国工程院院士）、陈勇院士（中国工程院院士）、吴一戎院士（中国科学院院士）、郭毅可教授（英国帝国理工大学大数据研究所所长）以及中国科学院计算技术研究所徐志伟、季统凯等研究员组成的战略指导专家委员会。这些院士、专家均是国内外最顶级的大数据专家，为研究院的发展出谋划策。</p
+                        >
+                    </div>
+                    <div class="swiper">
+                        <div class="swiper-container clearfix swiper-container-horizontal">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide expert-detail color-fff">
+                                    <div class="name f24">李国杰</div>
+                                    <p class="info"
+                                        >致力于并行处理、计算机体系结构、人工智能等领域，研究并发表了100多篇学术论文，合著了4本英文专著。现任中国科学院计算所所长、中国计算机学会理事长、中国工程院信息与电子学部主任、863信息领域专家委员会副主任、国家信息化专家咨询委员会委员、全国人大代表。</p
+                                    >
+                                </div>
+                                <div class="swiper-slide expert-detail color-fff">
+                                    <div class="name f24">陈勇</div>
+                                    <p class="info"
+                                        >博士，研究员，国际欧亚科学院院士。从事洁净煤技术、有机固体废弃物综合治理与利用技术、生物质能利用技术、能源战略研究。主持各类科技项目近50项。
+                                        发表论文205篇，主编著作9部，参编著作7部，获专利23项，获国家、省部级科技奖励6项。</p
+                                    >
+                                </div>
+                                <div class="swiper-slide expert-detail color-fff">
+                                    <div class="name f24">吴一戎</div>
+                                    <p class="info"
+                                        >信号与信息处理学家，中国科学院电子研究所研究员、博士生导师，所长，中国科学院院士。研究领域，微波成像理论研究、微波成像技术、雷达信号处理。一直从事微波成像理论的研究，系统的研制和处理算法的研究。主持完成了多项国家重大科研项目，推动了我国微波成像技术的发展。</p
+                                    >
+                                </div>
+                                <div class="swiper-slide expert-detail color-fff">
+                                    <div class="name f24">郭毅可</div>
+                                    <p class="info"
+                                        >博士，伦敦大学帝国理工学院计算机系计算机科学教授，上海生物信息技术研究中心客座教授、首席科学家，帝国理工学院并行计算中心技术总监，伦敦E-Science研究中心首席科学家，英国InforSense有限公司董事会主席兼首席执行官。专长于网格计算、云计算等。</p
+                                    >
+                                </div>
+                                <div class="swiper-slide expert-detail color-fff">
+                                    <div class="name f24">徐志伟</div>
+                                    <p class="info"
+                                        >博士，中科院计算所原副所长、总工程师、博士生导师。主要研究方向为网格计算（Grid
+                                        Computing）技术、机群操作系统、嵌入式操作系统、高性能服务器体系结构、安全操作系统、机群和网格系统的知识管理、云计算等，曾承担和参与多个国家“863计划”重大项目。</p
+                                    >
+                                </div>
+                                <div class="swiper-slide expert-detail color-fff">
+                                    <div class="name f24">季统凯</div>
+                                    <p class="info"
+                                        >博士，研究员，中科院云计算育成中心主任，上饶市中科院云计算中心大数据研究院院长，国云科技有限公司董事长。先后主持和参加国家级、广东省以及其他地方政府的各类科技和信息化项目30余项。发表论文多篇、专利多项。</p
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev spe" id="swiper-button-prev"></div>
+                        <div class="swiper-button-next spe" id="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 科研方向 -->
+            <div class="part kyfx">
+                <div class="container">
+                    <div class="common-block">
+                        <h2 class="title f24 color-333">科研方向</h2>
+                        <p class="tip color-666"
+                            >研究院主要面向新兴产业发展、传统企业转型升级两个领域。未来五年，研发中心技术研究重点放在云计算与大数据、物联网、移动互联的交叉技术研究上。</p
+                        >
+                    </div>
+                    <div class="images-box moveView">
+                        <img class="" src="images/keyanfangxiang.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- 企业文化 -->
+            <div class="part qywh">
+                <div class="container">
+                    <div class="moveView">
+                        <img class="wenhua" src="images/wenhua.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- 办公环境 -->
+            <div class="part environment">
+                <div class="container">
+                    <div class="common-block">
+                        <h2 class="title f24 color-333">办公环境</h2>
+                        <!-- <p class="tip color-666"> </p> -->
+                    </div>
+
+                    <!-- grid布局兼容性好差（grid布局结构），还是采用一般布局吧-->
+                    <!-- <div class="grid-photo-show">
+                    <div class="item item1">
+                        <img class="scalePic" src="images/bangognshi_pic1.jpg" alt="">
+                    </div>
+                    <div class="item item2">
+                        <img class="scalePic" src="images/bangognshi_pic2.jpg" alt="">
+                    </div>
+                    <div class="item item3">
+                        <img class="scalePic" src="images/bangognshi_pic3.jpg" alt="">
+                    </div>
+                    <div class="item item4">
+                        <img class="scalePic" src="images/bangognshi_pic4.jpg" alt="">
+                    </div>
+                    <div class="item item5">
+                        <img class="scalePic" src="images/bangognshi_pic5.jpg" alt="">
+                    </div>
+                </div> -->
+
+                    <!-- 一般布局 -->
+                    <div class="photo-show clearfix">
+                        <div class="item item1">
+                            <img class="scalePic" src="images/bangognshi_pic1.jpg" alt="" />
+                        </div>
+                        <div class="item item2">
+                            <img class="scalePic" src="images/bangognshi_pic2.jpg" alt="" />
+                        </div>
+                        <div class="item item3">
+                            <img class="scalePic" src="images/bangognshi_pic3.jpg" alt="" />
+                        </div>
+                        <div class="item item4">
+                            <img class="scalePic" src="images/bangognshi_pic4.jpg" alt="" />
+                        </div>
+                        <div class="item item5">
+                            <img class="scalePic" src="images/bangognshi_pic5.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 公用返回顶部 -->
+            <div id="goTop"></div>
+
+            @@include('footer.html')
+        </div>
+
+        <script>
+            // 图片滚动
+
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                autoplay: 10000,
+                autoplayStopOnLast: false,
+                autoplayDisableOnInteraction: false,
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                pagination: '.swiper-pagination',
+                slidesPerView: 4,
+                paginationClickable: true,
+                spaceBetween: 20
+            })
+
+            // 页面飞入动画效果
+            var items = document.querySelectorAll('.moveView')
+            window.onscroll = function() {
+                callbackFunc(items, 'fadeIn', 550)
+            }
+            window.addEventListener('load', callbackFunc(items, 'fadeIn', 550))
+        </script>
+        <script src="./js/unit.js"></script>
+    </body>
+</html>

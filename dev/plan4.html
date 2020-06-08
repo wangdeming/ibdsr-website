@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('meta.html')
+    <title>人才大数据</title>
+    <link rel="stylesheet" href="css/plan.css">
+</head>
+<body>
+    <!-- 类名公用(解决方案公用类名) -->
+    <div id="wrapper" class="plan">
+        @@include('header.html',{"jjfa": "active"})
+        <div class="plan_ad">
+            <img class="img_ad" src="images/rencai_banner@2x.jpg" alt="">
+            <div class="desc">
+                <h2 class="js" style="margin-top: 25px;">高端人才大数据开放服务平台</h2>
+                <button class="js btn" onclick="clickMsg(5)" style="margin-top: 25px;">留言咨询</button>
+            </div>
+        </div>
+
+        <!-- 产品定位 -->
+        <div class="plan4 plan_item plan_pos plan_cp">
+            <div class="container content">
+                <h2 class="title">产品定位</h2>
+                <p class="word">人才云是利用云计算、大数据等最新互联网技术建立的高级人才数据服务平台，覆盖生物医药、电子信息、新能源、航空等十大产业领域。平台利用大数据算法、分析技术，从多维度对人才进行分析，智能推荐人才。</p>     
+            </div>
+        </div>
+        
+        <!-- 核心功能 -->
+        <div class="plan4 plan_item plan_pos plan_gn" style="padding-bottom: 0;">
+            <div class="container content">
+                <h2 class="title">核心功能</h2>
+                <ul class="js_list clearfix">
+                    <li class="item fl">
+                        <div class="box-img">
+                            <img src="./images/group1.png" alt="">
+                            <!-- <p class="img_name">搜索人才</p> -->
+                        </div>
+                        <div class="word ">
+                            依托于人才云专家数据库，可以通过姓名、研究成果、研究领域、研究项目、研究专长等方面的关键词发现专家，并了解专家的研究成果。
+                        </div>
+                    </li>
+                    <li class="item fl">
+                        <div class="box-img">
+                            <img src="./images/group2.png" alt="">
+                            <!-- <p class="img_name">服务人才</p> -->
+                        </div>
+                        <div class="word ">
+                            根据需求推荐人才，在线关注感兴趣人才，并实时记录人才服务进程。
+                        </div>
+                    </li>
+                    <li class="item fl">
+                        <div class="box-img">
+                            <img src="./images/group3.png" alt="">
+                            <!-- <p class="img_name">搜索人才</p> -->
+                        </div>
+                        <div class="word ">
+                            依托于人才云专家数据库，可以通过姓名、研究成果、研究领域、研究项目、研究专长等方面的关键词发现专家，并了解专家的研究成果。
+                        </div>
+                    </li>
+                    <li class="item fl">
+                        <div class="box-img">
+                            <img src="./images/group4.png" alt="">
+                            <!-- <p class="img_name">搜索人才</p> -->
+                        </div>
+                        <div class="word ">
+                            依托于人才云专家数据库，可以通过姓名、研究成果、研究领域、研究项目、研究专长等方面的关键词发现专家，并了解专家的研究成果。
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 核心技术 -->
+        <div class="plan4 plan_item plan_pos plan_js">
+            <div class="container content js js2">
+                <h3 class="title">核心技术</h3>
+                <div class="box">
+                    <div class="word">
+                            通过基于论文和专利的人才专家关系协同算法法，初步勾勒绘制出人才专家关系图谱，然后通过社区发现算法挖掘出人才专家关系的潜在信息，最后利用人才推荐算法向人才专家推荐出可能存在关系的人才专家。
+                    </div>
+                    <div class="img_box">
+                        <img src="./images/rencai_hexin@2x.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 产品优势 -->
+        <div class="plan4 plan_ys">
+            <div class="ad js js2"></div>
+            <h2 class="title js js2">产品优势</h2>
+        </div>
+
+        <!-- 系统展示 -->
+        <div class="plan4 plan_item plan_show">
+            <div class="container content">
+                <h2 class="title" style="margin-bottom: 26px;">系统展示</h2>
+                <div class="img_box js js2">
+                    <img src="./images/rencai_zhanshi@2x.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- 联系我们 -->
+        <div class="plan_concact" style="padding-top: 80px;">
+            <div class="container content">
+                <p class="word">如果您对人才大数据平台感兴趣，请与我们联系！</p>
+                <p class="tel"><span>0793-8161215</span></p>
+                <button class="btn" onclick="clickMsg(5)">留言咨询</button>
+            </div>
+        </div>
+
+        <!-- 公用返回顶部 -->
+        <div id="goTop"></div>
+
+        @@include('footer.html')
+    </div>
+
+    <script>
+        // 页面飞入动画效果
+        var items1 = document.querySelectorAll(".js");
+        var items2 = document.querySelectorAll(".js2");
+        // window.addEventListener("load", callbackFunc(items, 'fadeIn', 0));
+        window.onload = function() {
+            callbackFunc(items1, 'fadeIn', 0)
+            callbackFunc(items2, 'fadeIn', 400)
+        }
+        window.onscroll = function() {
+            callbackFunc(items1, 'fadeIn', 0)
+            callbackFunc(items2, 'fadeIn', 400)
+        }
+
+    </script>
+    <script src="./js/unit.js"></script>
+</body>
+</html>

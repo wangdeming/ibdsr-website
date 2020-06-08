@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>youshi_tiyan</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="旅游大数据" transform="translate(-614.000000, -1535.000000)" stroke="#99A0CE">
+            <g id="youshi_tiyan" transform="translate(614.000000, 1535.000000)">
+                <use id="Oval-Copy-10" mask="url(#mask-2)" stroke-width="3" stroke-dasharray="4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M33.8155658,52 C30.3307123,49.8328743 28,45.8896522 28,41.3846154 C28,34.5447812 33.372583,29 40,29 C46.627417,29 52,34.5447812 52,41.3846154 C52,45.8896522 49.6692877,49.8328743 46.1844342,52 L33.8155658,52 Z M38.0203051,44.193833 C36.9045214,43.042287 36.9045214,41.175262 38.0203051,40.0237161 C39.1360888,38.8721701 40.9451316,38.8721701 42.0609153,40.0237161 C43.176699,41.175262 43.176699,43.042287 42.0609153,44.193833 C40.9451316,45.345379 39.1360888,45.345379 38.0203051,44.193833 Z M45.2934034,36.6876226 L42.0609153,40.0237161 L45.2934034,36.6876226 Z" id="Dashboard" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

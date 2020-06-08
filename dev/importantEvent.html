@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('meta.html')
+
+    <title>大事记</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="wrapper" class="event">
+        @@include('header.html',{"about": "active"})
+        <div class="top-fill"></div>
+        <div class="container">
+            <div class="content clearfix">
+                <div class="center-line"></div>
+
+                <div class="block block-left" id="left">
+                    
+                </div>
+                <div class="block block-right" id='right'>
+
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- 公用返回顶部 -->
+        <div id="goTop"></div>
+        
+        @@include('footer.html')
+    </div>
+
+
+    <script>
+        
+        // 页面飞入动画效果
+        function _isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return (
+                // rect.top >= 0 &&
+                // rect.left >= 0 &&
+                // rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                // rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                rect.top >= -100 && rect.bottom <= (window.innerHeight + 500 || document.documentElement.clientHeight + 500)
+            );
+        }
+
+        function _callbackFunc(items) {
+            for (var i = 0; i < items.length; i++) {
+                if (_isElementInViewport(items[i])) {
+                    if(!items[i].classList.contains("move")){
+                        items[i].classList.add("move");
+                    }
+                } else if(items[i].classList.contains("move")) {
+                    items[i].classList.remove("move");
+                }
+            }
+        }
+
+        // 大事记列表
+        var html = ''
+        var curData = ''
+        var leftBlock = $('#left')
+        var rightBlock = $('#right')
+        var imgHtml = ''
+        $.axse({
+            url: '/api/events/list'
+        },function(res){
+            if(res.code === 200 && res.data.length > 0) {
+                for(var i=0; i<res.data.length; i++) {
+                    curData = res.data[i] 
+                    // 图片数量不同添加不同的类名num1，num2,num3
+                    if(curData.imageList && curData.imageList.length == 1) {
+                        imgHtml = '<div class="pic-box num1">'+
+                                    '<div class="item">'+
+                                        '<img src='+curData.imageList[0].imagePath+' alt="">'+
+                                    '</div>'+
+                                '</div>'
+                    }
+                    else if(curData.imageList && curData.imageList.length == 2) {
+                        imgHtml = '<div class="pic-box num2">'+
+                                    '<div class="item">'+
+                                        '<img src='+curData.imageList[0].imagePath+' alt="">'+
+                                    '</div>'+
+                                    '<div class="item">'+
+                                        '<img src='+curData.imageList[1].imagePath+' alt="">'+
+                                    '</div>'+
+                                '</div>'
+                    }
+                    else if(curData.imageList && curData.imageList.length >= 3) {
+                        var imgList = curData.imageList.slice(0,3)
+                        imgHtml = '<div class="pic-box num3">'+
+                                    '<div class="item">'+
+                                        '<img src='+imgList[0].imagePath+' alt="">'+
+                                    '</div>'+
+                                    '<div class="item">'+
+                                        '<img src='+imgList[1].imagePath+' alt="">'+
+                                    '</div>'+
+                                    '<div class="item">'+
+                                        '<img src='+imgList[2].imagePath+' alt="">'+
+                                    '</div>'+
+                                '</div>'
+                    }
+
+                    html = '<div class="box-item clearfix">'+
+                            '<div class="detail">'+
+                                '<div class="time">'+curData.eventDate+'</div>'+
+                                '<h2 class="title">'+curData.title+'</h2>'+
+                                '<p class="word">'+curData.content+'</p>'+
+                                imgHtml+
+                            '</div>'+
+                            '<div class="animate">'+
+                                '<div class="sun"></div>'+
+                                '<div class="circle circle1"></div>'+
+                                '<div class="circle circle2"></div>'+
+                            '</div>'+
+                        '</div>'
+                    if((i+1)%2 === 0) {
+                        leftBlock.append(html)
+                    }
+                    else if((i+1)%2 === 1) {
+                        rightBlock.append(html)
+                    }
+                }
+                var items = $(".box-item");
+                _callbackFunc(items)
+
+                var goTop = $("#goTop")
+                var showGoTopPos = 600 //滚动到600px时显示返回顶部按钮
+                var scrollTop = 0
+                var allHeight = $(document).height()
+                var clentHeight = $(window).height()
+                var footerHeight = $('#footer').height()
+                
+                window.addEventListener("scroll", function(){
+                    _callbackFunc(items)
+                    setTimeout(function(){
+                        scrollTop = $(document).scrollTop()
+                        if(scrollTop > showGoTopPos) {
+                            goTop.css('opacity', 1)
+                            if(allHeight - clentHeight - scrollTop > 100) {
+                                goTop.css('position', 'fixed').css('bottom', '50px')
+                            } else {
+                                goTop.css('positon', 'absolute').css('bottom', footerHeight+50+'px')
+                            }
+                        } else {
+                            goTop.css('opacity', 0)
+                        }
+                    }, 30)
+                });
+            }
+        })
+
+
+    </script>
+</body>
+</html>

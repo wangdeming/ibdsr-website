@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('meta.html')
+    <title>汽车监测与服务大数据</title>
+    <link rel="stylesheet" href="css/plan.css">
+</head>
+<body>
+    <!-- 类名公用(解决方案公用类名) -->
+    <div id="wrapper" class="plan">
+        @@include('header.html',{"jjfa": "active"})
+        <div class="plan_ad">
+            <img class="img_ad" src="images/plan_ad1.jpg" alt="">
+            <div class="desc">
+                <h2 class="js">汽车监测与服务大数据</h2>
+                <p class="js">一车百应在手，养车无忧</p>
+                <button class="js btn" onclick="clickMsg(2)">留言咨询</button>
+            </div>
+        </div>
+
+        <!-- 产品定位 -->
+        <div class=" plan_item plan_pos">
+            <div class="container content">
+                <h2 class="title">产品定位</h2>
+                <p class="word">汽车监测与服务大数据平台主要针对用户养车价格不透明、车辆零配件不匹配等养车难点问题，利用平台丰富的车型数据、养车领域知识库以及汽车历史养护数据，通过数据挖掘与分析、人工智能算法，全面透析汽车服务产业各个环节，为商家提供精准营销、客户管理、运营管理等服务，实现智慧决策与商业增值；为车主提供全程无忧的精准汽车养护服务，让用户养车更轻松。</p>
+                <img class="img js2" src="images/dingwei.svg" alt="">
+            </div>
+        </div>
+
+        <!-- 产品优势 -->
+        <div class="plan_item plan_ys">
+            <div class="container content">
+                <h2 class="title">产品优势</h2>
+                <p class="word">依赖可靠的数据源及全方位的管控和严密的审核流程有效确保数据的质量与精准。数据多维互联，贯穿产品全生命周期以及汽车全产业链。</p>
+                <div class="icon_list clearfix">
+                    <div class="item">
+                        <img src="images/duowei.svg" alt="">
+                        <p class="icon_title">多维</p>
+                        <p class="icon_desc">数据互联 多维融合</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/shishi.svg" alt="">
+                        <p class="icon_title">实时</p>
+                        <p class="icon_desc">实时监测 及时更新</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/keguan.svg" alt="">
+                        <p class="icon_title">客观</p>
+                        <p class="icon_desc">客观真实 精准可靠</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/zhuanque.svg" alt="">
+                        <p class="icon_title">准确</p>
+                        <p class="icon_desc">完备算法 结果可信</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 产品技术 -->
+        <div class="plan_special">
+            <img class="img" src="images/plan_js.jpg" alt="">
+            <div class="content clearfix">
+                <div class="fl part">
+                    <div class="front">
+                        <p class="">核心技术一</p>
+                        <p class="detail">商品动态属性的数据结构</p>
+                    </div>
+                    <div class="behide">
+                        <div class="word">
+                            <p>由于每种商品的属性都不相同，传统的合计无法满足需求，为此设计出了一种动态属性数据结构。总共由五张表构成，分别是商品表、商品类型表、商品类型表、商品属性表、属性值表。商品表主要涉及到商品的一些公共属性；属性表隶属于商品类型表，每种商品类型限制了商品有哪些属性，而且属相可以动态添加；属性值表，主要是表示商品动态属性的值。</p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="fl part">
+                    <div class="front">
+                        <p class="">核心技术二</p>
+                        <p class="detail">汽车服务精准匹配算法</p>
+                    </div>
+                    <div class="behide">
+                        <div class="word">
+                            <p>由于每种服务不仅和车型有关，而且还有不同的档次，首先根据车的价格，车型匹配筛选出相关的服务列表，然后再根据用户的年龄、服务的评分、服务的价格等属性计算出最优的服务推荐给用户，通过欧式距离公式，计算出距离最小的服务。</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 系统介绍 -->
+        <div class="plan_item plan_info">
+            <div class="container content">
+                <h2 class="title">系统介绍</h2>
+                <p class="word">依据不同的用户角色，共研发四个对外独立使用，对内相互关联的客户端，分别为平台管理WEB端、代理商管理WEB端、商家版APP端和车主版APP端。</p>
+                <div class="tabBar">
+                    <div class="tabBar_inner" id="tabBar_inner">
+                        <ul class="tab_line">
+                            <li class="tab active">
+                                <span>平台管理WEB端</span>
+                            </li>
+                            <li class="tab">
+                                <span>代理商管理WEB端</span>
+                            </li>
+                            <li class="tab">
+                                <span>商家版APP端</span>
+                            </li>
+                            <li class="tab">
+                                <span>车主版APP端</span>
+                            </li>
+                        </ul>
+                        <ul class="bar_line" id="bar">
+                            <li class="bar fl clearfix">
+                                <div class="left fl">
+                                    <h2 class="">平台管理WEB端</h2>
+                                    <p class="">平台管理WEB端是整个系统的最高权限管理后台，拥有代理商管理、代理区域管理、服务管理、商品管理、财务管理、广告管理等功能。</p>
+                                </div>
+                                <div class="right fl">
+                                    <img src="images/pingtai_web@2x.jpg" alt="">
+                                </div>
+                            </li>
+                            <li class="bar fl clearfix">
+                                <div class="left fl">
+                                    <h2 class="">代理商管理WEB端</h2>
+                                    <p class="">代理商管理WEB端主要供代理商管理本代理区域的店铺，辅助功能有商品管理、广告管理、账号管理、报表中心、卡劵管理等。</p>
+                                </div>
+                                <div class="right fl">
+                                    <img src="images/daili_web.jpg" alt="">
+                                </div>
+                            </li>
+                            <li class="bar fl clearfix">
+                                <div class="left fl">
+                                    <h2 class="">商家版APP端</h2>
+                                    <p class="">商家版APP端供已入驻的优质服务门店进行日常运营。便捷的操作，安全的资金管理，清晰的账务，多样的报表让商家轻松做掌柜。</p>
+                                </div>
+                                <div class="right fl">
+                                    <img src="images/shangjia_app.jpg" alt="">
+                                </div>
+                            </li>
+                            <li class="bar fl clearfix">
+                                <div class="left fl">
+                                    <h2 class="">车主版APP端</h2>
+                                    <p class="">车主版APP端供广大车主用户使用，车主线上用更低的价格下单，在线下预约享受更优质专业的服务，引领广大车主品质养车。</p>
+                                </div>
+                                <div class="right fl">
+                                    <img src="images/chezhu_app.jpg" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 联系我们 -->
+        <div class="plan_concact">
+            <div class="container content">
+                <p class="word">如果您对汽车监测与服务大数据平台感兴趣，请与我们联系！</p>
+                <p class="tel"><span>0793-8161215</span></p>
+                <button class="btn" onclick="clickMsg(2)">留言咨询</button>
+            </div>
+        </div>
+
+        <!-- 公用返回顶部 -->
+        <div id="goTop"></div>
+
+        @@include('footer.html')
+    </div>
+
+    <script>
+        // 页面飞入动画效果
+        var items1 = document.querySelectorAll(".js");
+        var items2 = document.querySelectorAll(".js2");
+        // window.addEventListener("load", callbackFunc(items, 'fadeIn', 0));
+        window.onload = function() {
+            callbackFunc(items1, 'fadeIn', 0)
+            callbackFunc(items2, 'fadeIn', 300)
+        }
+        window.onscroll = function() {
+            callbackFunc(items1, 'fadeIn', 0)
+            callbackFunc(items2, 'fadeIn', 300)
+        }
+
+        // tab切换
+        var tabItem = $("#tabBar_inner").find('.tab');
+        var bar = $("#bar");
+        var length = tabItem.length
+        var current = 0
+        tabItem.click(function(){
+            for(var i=0;i<length;i++) {
+                tabItem.eq(i).removeClass('active')
+            }
+            current = $(this).index()
+            bar.css('transform','translateX('+(-1000*current)+'px)')
+            $(this).addClass('active')
+        });
+
+    </script>
+    <script src="./js/unit.js"></script>
+</body>
+</html>

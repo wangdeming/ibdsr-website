@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        @@include('meta.html')
+
+        <title>上饶市中科院云计算中心大数据研究院</title>
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/swiper.min.css" />
+        <script src="js/index.js"></script>
+        <script src="js/swiper.min.js"></script>
+    </head>
+    <body>
+        <div id="wrapper" class="index">
+            @@include('header.html', {"index": "active"})
+            <article>
+                <!-- banner -->
+                <div class="banner swiper-container swiper-container-horizontal" id="bannerSwiper">
+                    <ul class="swiper-wrapper clearfix " id="banner">
+                        <!-- 特殊的banner -->
+                        <li class="banner-item swiper-slide special-ban fl" style="opacity: 0;">
+                            <div class="ban-mask"></div>
+                            <canvas id="canvas">快点换个高级的浏览器吧！</canvas>
+                            <div class="top-title"></div>
+                            <div class="animation-box" id="animationBox">
+                                <div class="js-box">
+                                    <div class="block js1 animation">
+                                        <div class="content">
+                                            <h3>2017年12月</h3>
+                                            <p>
+                                                经省发改委批复认定为 江西省旅游大数据工程研究中心
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="block js2 animation">
+                                        <div class="content">
+                                            <h3>2018年1月</h3>
+                                            <p>
+                                                上饶市创新创业产业孵化中心被评定为市级创业孵化基地
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="block js3 animation">
+                                        <div class="content">
+                                            <h3>2018年3月</h3>
+                                            <p>
+                                                获得2018年省预算内基建投资新动能培育平台建设专项投资计划支持
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="block js4 animation">
+                                        <div class="content">
+                                            <h3>2018年9月</h3>
+                                            <p>
+                                                上饶市创新创业产业孵化中心被评定为江西省创业孵化示范基地
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="block js5 animation">
+                                        <div class="content">
+                                            <h3>2018年11月</h3>
+                                            <p>
+                                                基于大数据的精准扶贫应用系统获得2018年中央引导地方科技发展专项资金支持
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="block js6 animation">
+                                        <div class="content">
+                                            <h3>2018年12月</h3>
+                                            <p>
+                                                基于物联网的旅游大数据应用云平台、上饶市大数据系统软件研发与应用获得市级科技推广专项经费支持
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="block center-block">
+                                        <div class="ibdsr"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- part1 -->
+                <div class="part platform">
+                    <div class="container clearfix" id="tabBar">
+                        <div class="left-box">
+                            <div class="center">
+                                <div class="sun sun2" id="sun"></div>
+                                <div class="out out1"></div>
+                                <div class="out out2"></div>
+                                <div class="out out3"></div>
+                                <p id="sunWord">创新研发平台</p>
+                            </div>
+                            <div class="ainimat-item tab  item1" tab-index="0">
+                                <div class="auto">
+                                    <div class="front"></div>
+                                    <div class="center">创业孵化</div>
+                                </div>
+                                <div class="hover">
+                                    <p class="word">创业孵化</p>
+                                    <div class="circle"></div>
+                                    <div class="face"></div>
+                                </div>
+                                <div class="fly" id="fly1"></div>
+                            </div>
+                            <div class="ainimat-item tab active item2" tab-index="1">
+                                <div class="auto">
+                                    <div class="front"></div>
+                                    <div class="center">创新研发</div>
+                                </div>
+                                <div class="hover">
+                                    <p class="word">创新研发</p>
+                                    <div class="circle"></div>
+                                    <div class="face"></div>
+                                </div>
+                                <div class="fly" id="fly2"></div>
+                            </div>
+                            <div class="ainimat-item tab item3" tab-index="2">
+                                <div class="auto">
+                                    <div class="front"></div>
+                                    <div class="center">人才培养</div>
+                                </div>
+                                <div class="hover">
+                                    <p class="word">人才培养</p>
+                                    <div class="circle"></div>
+                                    <div class="face"></div>
+                                </div>
+                                <div class="fly" id="fly3"></div>
+                            </div>
+                        </div>
+                        <div class="right-box">
+                            <!-- 创业孵化 -->
+                            <div class="bar" id="cyfh">
+                                <h2 class="color-333 f24">大数据创业孵化平台</h2>
+                                <p class="color-666 f14">
+                                    培育由领军企业、转化企业、孵化企业构成的产业集群，助力智慧城市建设
+                                </p>
+                                <div class="child icon6">
+                                    <h3 class="color-333 f16">统一品牌建设</h3>
+                                    <p class="color-999 f14">
+                                        建立统一的品牌，把品牌形象推广到全国。
+                                    </p>
+                                </div>
+                                <div class="child icon7">
+                                    <h3 class="color-333 f16">整合市场推广</h3>
+                                    <p class="color-999 f14">
+                                        建立战略合作队伍，整合内外部资源，争取大型项目落地。
+                                    </p>
+                                </div>
+                                <div class="child icon8">
+                                    <h3 class="color-333 f16">全方位支持</h3>
+                                    <p class="color-999 f14">
+                                        提供全方面服务，孵化创新型企业，形成产业集群。
+                                    </p>
+                                </div>
+                                <div class="child icon9">
+                                    <h3 class="color-333 f16">重点培养</h3>
+                                    <p class="color-999 f14">
+                                        重点培育政务大数据、城市管理大数据、行业大数据三个方向。
+                                    </p>
+                                </div>
+                                <div class="child icon10">
+                                    <h3 class="color-333 f16">融合服务</h3>
+                                    <p class="color-999 f14">
+                                        促进创新链、产业链、资金链“三链融合”。
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- 创新开发 -->
+                            <div class="bar" id="cxkf"  style="opacity: 1;">
+                                <h2 class="color-333 f24">大数据协同创新研发平台</h2>
+                                <p class="color-666 f14">
+                                    大数据协同创新研发平台作为聚集高端人才的重要抓手，采用首席科学家负责制，吸引国内外领军人才与团队、高等院校研究人员、业界领袖承担高风险、对大数据产业发展具有重要引领作用的项目。
+                                </p>
+                                <div class="child icon1">
+                                    <h3 class="color-333 f16">面向产业的共性支撑服务</h3>
+                                    <p class="color-999 f14">
+                                        包括旅游大数据资源云、政务大数据服务平台、城市管理大数据服务平台。
+                                    </p>
+                                </div>
+                                <div class="child icon2">
+                                    <h3 class="color-333 f16">面向市场应用的前瞻性交叉技术研究</h3>
+                                    <p class="color-999 f14">
+                                        主要包括云计算与大数据、物联网、移动互联的交叉学科和领域的技术研究，其目标通过开办研究院，引进外部领军人才和科研团队。
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- 人才培养 -->
+                            <div class="bar" id="rcpy">
+                                <h2 class="color-333 f24">大数据人才培养平台</h2>
+                                <p class="color-666 f14">
+                                    为各类人才的进步搭建平台，培养一支技术熟练、结构合理、素质优良、适应科技创新要求的专业技术人才队。
+                                </p>
+                                <div class="child icon3">
+                                    <h3 class="color-333 f16">搭建良好平台，促进人才成长</h3>
+                                    <p class="color-999 f14">
+                                        与多方共建，形成了以研究院为主体、江西省旅游大数据工程研究中心为龙头、上饶市数字经济研究院为核心的科技创新体系。
+                                    </p>
+                                </div>
+                                <div class="child icon4">
+                                    <h3 class="color-333 f16">
+                                        组建专业大数据人才队伍，贡献大数据智慧
+                                    </h3>
+                                    <p class="color-999 f14">
+                                        研究院自身已组建了一支由知名高校、京沪广深等著名企业、本地大数据人才组成的高学历、年轻化、专业化的专业技术队伍。
+                                    </p>
+                                </div>
+                                <div class="child icon5">
+                                    <h3 class="color-333 f16">
+                                        拓展人才培养外延，培养社会需求人才
+                                    </h3>
+                                    <p class="color-999 f14">
+                                        为社会培养高素质技术技能人才、为产业的发展提供智力支持和人才支撑，助推大数据产业持续发展的人才培育实训基地。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 产品解决方案 -->
+                <div class="part plan" id="plan">
+                    <div class="top">
+                        <div class="container">
+                            <h1 class="title f24 color-333">产品解决方案</h1>
+                            <ul class="tabBar color-333 f14">
+                                <li class="tab ">汽车监测与服务大数据</li>
+                                <li class="tab active">旅游大数据</li>
+                                <li class="tab">民生大数据</li>
+                                <li class="tab">人才大数据</li>
+                                <li class="tab">新能源汽车产业分析</li>
+                            </ul>
+                            <div class="nav-line"></div>
+                        </div>
+                    </div>
+                    <div class="content motion scroll-visible">
+                        <ul id="cardList">
+                            <li class="card ">
+                                <div class="img-content">
+                                    <div class="img-mask"></div>
+                                    <img
+                                        class="scalePic"
+                                        src="images/yichebaiying.jpg"
+                                        alt="旅游大数据"
+                                    />
+                                </div>
+                                <div class="text-content">
+                                    <h3>汽车监测与服务大数据</h3>
+                                    <p class="desc">
+                                        汽车监测与服务大数据平台主要针对用户养车价格不透明、车辆零配件不匹配等养车难点问题，利用平台丰富的车型数据、养车领域知识库以及汽车历史养护数据，通过数据挖掘与分析、人工智能算法，全面透析汽车服务产业各个环节，为商家提供精准营销、客户管理、运营管理等服务，实现智慧决策与商业增值；为车主提供全程无忧的精准汽车养护服务，让用户养车更轻松。
+                                    </p>
+                                    <a class="more" target="_blank" href="./plan1.html">
+                                        <span class="icon">了解更多</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card active">
+                                <div class="img-content">
+                                    <div class="img-mask"></div>
+                                    <img class="scalePic" src="images/lvyoudashuju.jpg" alt="" />
+                                </div>
+                                <div class="text-content">
+                                    <h3>旅游大数据</h3>
+                                    <p class="desc">
+                                        针对传统景区存在的信息化建设薄弱、管理困难、游客体验差等问题，采用SaaS模式研发旅游大数据云平台。平台包括智能售检票系统、景区在线商城、景区3D虚拟游、应急联动指挥系统、景区舆情监测分析系统、环境资源监测系统、智能分析决策系统，为景区提供一站式解决方案和服务、助力景区实现智慧管理、智慧服务、智慧营销。
+                                    </p>
+                                    <a class="more" target="_blank" href="./plan2.html">
+                                        <span class="icon">了解更多</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <div class="img-content">
+                                    <div class="img-mask"></div>
+                                    <img class="scalePic" src="images/minshengdashuju.jpg" alt="" />
+                                </div>
+                                <div class="text-content">
+                                    <h3>民生大数据</h3>
+                                    <p class="desc">
+                                        一个实时、全面感知的民生大数据分析平台，利用语义分析、数据挖掘等大数据分析技术，实时发现诉求热点，为政府提供舆情监测等服务，为政府的科学决策提供重要的民意参考和依据。
+                                    </p>
+                                    <a class="more" target="_blank" href="./plan3.html">
+                                        <span class="icon">了解更多</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <div class="img-content">
+                                    <div class="img-mask"></div>
+                                    <img class="scalePic" src="images/rencaidashuju.jpg" alt="" />
+                                </div>
+                                <div class="text-content">
+                                    <h3>人才大数据</h3>
+                                    <p class="desc">
+                                        人才云是利用云计算、大数据等最新互联网技术建立的高级人才数据服务平台，覆盖生物医药、电子信息、新能源、航空等十大产业领域。平台利用大数据算法、分析技术，从多维度对人才进行分析，智能推荐人才。
+                                    </p>
+                                    <a class="more" target="_blank" href="./plan4.html">
+                                        <span class="icon">了解更多</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <div class="img-content">
+                                    <div class="img-mask"></div>
+                                    <img
+                                        class="scalePic"
+                                        src="images/xinnengyuanqiche.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="text-content">
+                                    <h3>新能源汽车产业分析</h3>
+                                    <p class="desc">
+                                        以“一库、一网站、六模块”的形式，一方面运用大数据技术对新能源汽车及其产业数据进行采集清洗整理形成专属数据库，另一方面通过首页、产业概况、宏观总览、省市分析、产业链、相关政策六大模块组成公开网站，为新能源汽车行业、企业、消费者提供全方位的新能源产业资讯，用数据分析结果为新能源汽车产业方面的工业园区管理者提供辅助招商，实现快速精准招商。
+                                    </p>
+                                    <a class="more" target="_blank" href="./plan5.html">了解更多</a>
+                                    <!-- <a class="more" href="./plan5.html"><span class="icon">了解更多</span></a> -->
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="change">
+                            <div class="change-btn pre " id="pre">
+                                <img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAHlBMVEVHcExmcopmc4t2dpdlcopmcotmcopqcY5mdYplcYnLHQOMAAAACXRSTlMA40sLoX3AJCNEwqCQAAAAeklEQVRIx2NgGAWjAC9QFCKgQHKmAiEF4vgVaM6caIBXAevMmcn4jfCcOQW/ArOZMwPwKmCWnDkJvxGNMwn4lGnm4PSp4kx0MAk9htDBRBIVELSC1Ogg5E2CAUUoqIGRJYHXgEIC0U0wwQy8H4HxJkFh5iWY/UfBCAYAzs5Q48MpPuQAAAAASUVORK5CYII="
+                                    alt=""
+                                />
+                            </div>
+                            <div class="change-btn next" id="next">
+                                <img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAHlBMVEVHcExmcopmc4t2dpdlcopmcotmcopqcY5mdYplcYnLHQOMAAAACXRSTlMA40sLoX3AJCNEwqCQAAAAeklEQVRIx2NgGAWjAC9QFCKgQHKmAiEF4vgVaM6caIBXAevMmcn4jfCcOQW/ArOZMwPwKmCWnDkJvxGNMwn4lGnm4PSp4kx0MAk9htDBRBIVELSC1Ogg5E2CAUUoqIGRJYHXgEIC0U0wwQy8H4HxJkFh5iWY/UfBCAYAzs5Q48MpPuQAAAAASUVORK5CYII="
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="point-nav">
+                        <li class="tab "></li>
+
+                        <li class="tab active"></li>
+
+                        <li class="tab"></li>
+
+                        <li class="tab"></li>
+
+                        <li class="tab"></li>
+                    </ul>
+                </div>
+                <!-- 新闻资讯 -->
+                <div class="part news">
+                    <div class="top">
+                        <h1 class="title f24 color-333">新闻资讯</h1>
+                    </div>
+                    <div class="content">
+                        <div class="container">
+                            <div class="news-list">
+                                <!-- 新闻动态 -->
+                                <div class="list-item moveView">
+                                    <div class="box">
+                                        <div class="news-title">
+                                            <h2 class="f18 color-333">新闻动态</h2>
+                                            <a
+                                                class="more"
+                                                href="./newsInfo.html?nav=1"
+                                                target="_blank"
+                                            >
+                                                更多
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="box" id="news1"></div>
+                                </div>
+                                <!-- 媒体报道 -->
+                                <div class="list-item moveView">
+                                    <div class="box">
+                                        <div class="news-title">
+                                            <h2 class="f18 color-333">媒体报道</h2>
+                                            <a
+                                                class="more"
+                                                href="./newsInfo.html?nav=2"
+                                                target="_blank"
+                                            >
+                                                更多
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="box" id="news2"></div>
+                                </div>
+                                <!-- 合作交流 -->
+                                <div class="list-item moveView">
+                                    <div class="box">
+                                        <div class="news-title">
+                                            <h2 class="f18 color-333">合作交流</h2>
+                                            <a
+                                                class="more"
+                                                href="./newsInfo.html?nav=3"
+                                                target="_blank"
+                                            >
+                                                更多
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="box" id="news3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 致力于建设全国领先的大数据育成生态系统 -->
+                <div class="part cloudBox about">
+                    <div class="bg1" style="height: 520px">
+                        <div class="cloud cloud1"></div>
+                        <div class="cloud cloud2"></div>
+                    </div>
+                    <div class="bg2" style="height: 520px"></div>
+                    <div class="bg_mask" style="height: 520px;"></div>
+                    <div class="container color-fff" style="z-index: 10">
+                        <p class="title f24">致力于建设全国领先的大数据育成生态系统</p>
+                        <p class="tip f14">
+                            上饶市中科院云计算中心大数据研究院是在上饶市市委市政府的指导与支持下，由上饶市人民政府与中国科学院云计算产业技术创新与育成中心共同支持建立。
+                        </p>
+                        <div class="tags">
+                            <div class="item item1">
+                                <p class="above">2016年8月</p>
+                                <p class="below f14">成立</p>
+                            </div>
+                            <div class="item item2">
+                                <p class="above">首个</p>
+                                <p class="below f14">江西省大数据领域创新型研发机构</p>
+                            </div>
+                            <div class="item item3">
+                                <p class="above">三大中心</p>
+                                <p class="below f14">组建</p>
+                            </div>
+                            <div class="item item4">
+                                <p class="above">三大平台</p>
+                                <p class="below f14">建设</p>
+                            </div>
+                        </div>
+                        <a href="./aboutUs.html" target="_blank">
+                            <button class="more">
+                                <span class="icon">了解更多</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- 孵化中心 -->
+                <div class="part fhzx">
+                    <div class="container">
+                        <!-- <div class="wave"></div> -->
+                        <div class="detail opacityShow">
+                            <div class="content">
+                                <h2 class="name color-333 f24">上饶市创新创业产业孵化中心</h2>
+                                <p class="tip color-666">
+                                    上饶市创新创业产业孵化中心是上饶市政府与中科院云计算中心所签定的共建云计算产业基地重大战略合作协议上的重要项目，是上饶市大数据领域创新、创业企业孵化服务平台，主要面向智慧城市建设领域培育由孵化企业、转化企业、领军企业构成的大数据产业集群，助力上饶市智慧城市建设，其主要使命是用5年左右的时间打造一个国家级孵化器。该平台建设由上饶市中科院云计算中心大数据研究院负责。
+                                </p>
+                                <a
+                                    href="./centerIntroduction.html"
+                                    target="_blank"
+                                    style="width: 180px"
+                                >
+                                    <button class="more">
+                                        <span class="icon">了解更多</span>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pic moveView">
+                            <img src="images/DSC_2337副本.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <!-- 领导关怀 -->
+                <div class="part ldgh">
+                    <div class="container">
+                        <div class="title f24 color-333">领导关怀</div>
+                        <div class="swiper-container clearfix" id="colee_left">
+                            <div class="clearfix" id="colee_box" style="height: 200px;">
+                                <div class="swiper-wrapper fl" id="colee_left1">
+                                    <div class="swiper-slide">
+                                        <a href="./leaderEvent.html#19" target="_blank">
+                                            <img src="images/ld1.jpg" class="swiper-lazy scalePic" />
+                                            <div class="detail"><span>省委副秘书长 沈谦芳</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="./leaderEvent.html#2" target="_blank">
+                                            <img src="images/ld2.jpg" class="swiper-lazy scalePic" />
+                                            <div class="detail"><span>副省长 吴忠琼</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="./leaderEvent.html#27" target="_blank">
+                                            <img src="images/ld3.jpg" class="swiper-lazy scalePic" />
+                                            <div class="detail"><span>省委组织部常务副部长 徐南凯</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="./leaderEvent.html#46" target="_blank">
+                                            <img src="images/ld4.jpg" class="swiper-lazy scalePic" />
+                                            <div class="detail"><span>中国工程院院士 邬贺铨</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="./leaderEvent.html#20" target="_blank">
+                                            <img src="images/ld5.jpg" class="swiper-lazy scalePic" />
+                                            <div class="detail"><span>省委组织部副部长 徐忠</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="./leaderEvent.html#42" target="_blank">
+                                            <img src="images/ld6.jpg" class="swiper-lazy scalePic" />
+                                            <div class="detail"><span>赣州市委常委 高世文</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="./leaderEvent.html#10" target="_blank">
+                                            <img src="images/ld7.jpg" class="swiper-lazy scalePic" />
+                                            <div class="detail"><span>宜春市委书记 颜赣辉</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-wrapper fl" id="colee_left2"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev" id="swiper-button-prev"></div>
+                        <div class="swiper-button-next" id="swiper-button-next"></div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 公用返回顶部 -->
+            <div id="goTop"></div>
+
+            @@include('footer.html')
+        </div>
+    </body>
+    <script>
+        // 掉落01的效果
+        var canvas = document.getElementById('canvas')
+        var ctx = canvas.getContext('2d')
+        canvas.width = window.innerWidth
+        canvas.height = 700
+
+        var str = '01' //掉落的内容
+        str.split('')
+        var fontsize = 20
+        columns = canvas.width / fontsize
+        var drop = []
+        for (var x = 0; x < columns; x++) {
+            drop[x] = 0
+        }
+
+        function drap() {
+            ctx.fillStyle = 'rgba(0,0,0,0.05)'
+            ctx.fillRect(0, 0, canvas.width, canvas.height)
+            ctx.fillStyle = '#0F0'
+            ctx.font = '20px arial'
+            for (var i = 0; i < drop.length; i++) {
+                var text = str[Math.floor(Math.random() * str.length)]
+                ctx.fillText(text, i * fontsize, drop[i] * fontsize)
+                drop[i]++
+                if (drop[i] * fontsize > canvas.height && Math.random() > 0.9) {
+                    drop[i] = 0
+                }
+            }
+        }
+
+        setInterval(drap, 70)
+
+        setTimeout(function() {
+            $('.special-ban').css('opacity', '1')
+        }, 200)
+
+        // 图片滚动
+        var speed = 40 //速度数值越大速度越慢
+        var colee_left2 = document.getElementById('colee_left2')
+        var colee_left1 = document.getElementById('colee_left1')
+        var colee_left = document.getElementById('colee_left')
+        var colee_box = document.getElementById('colee_box')
+        
+        $('#colee_box').css('width', $('#colee_left1').width() * 2 + 'px')
+
+        var prev = document.getElementById('swiper-button-prev')
+        var next = document.getElementById('swiper-button-next')
+
+        colee_left2.innerHTML = colee_left1.innerHTML
+
+        function Marquee3() {
+            if (colee_left2.offsetWidth - colee_left.scrollLeft <= 0)
+                //offsetWidth 是对象的可见宽度
+                colee_left.scrollLeft -= colee_left1.offsetWidth
+            //scrollWidth 是对象的实际内容的宽，不包边线宽度
+            else {
+                colee_left.scrollLeft++
+            }
+        }
+        var MyMar3 = setInterval(Marquee3, speed)
+
+        colee_left.onmouseover = function() {
+            clearInterval(MyMar3)
+        }
+        colee_left.onmouseout = function() {
+            MyMar3 = setInterval(Marquee3, speed)
+        }
+
+        prev.onclick = function() {
+            colee_left.scrollLeft = colee_left.scrollLeft - speed * 10
+        }
+
+        next.onclick = function() {
+            colee_left.scrollLeft = colee_left.scrollLeft + speed * 10
+        }
+
+        // 页面飞入动画效果
+        var items = document.querySelectorAll('.moveView')
+        var items2 = document.querySelectorAll('.opacityShow')
+        window.onload = function() {
+            callbackFunc(items, 'fadeIn', 300)
+            callbackFunc(items2, 'active', 300)
+        }
+        window.onscroll = function() {
+            callbackFunc(items, 'fadeIn', 300)
+            callbackFunc(items2, 'active', 300)
+        }
+    </script>
+    <script src="./js/unit.js"></script>
+</html>

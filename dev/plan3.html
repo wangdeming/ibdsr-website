@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('meta.html')
+    <title>民生大数据</title>
+    <link rel="stylesheet" href="css/plan.css">
+</head>
+<body>
+    <!-- 类名公用(解决方案公用类名) -->
+    <div id="wrapper" class="plan">
+        @@include('header.html',{"jjfa": "active"})
+        <div class="plan_ad">
+            <img class="img_ad" src="images/minsheng_banner@2x.jpg" alt="">
+            <div class="desc">
+                <h2 class="js">民生大数据</h2>
+                <p class="js">决策科学民主化、政务公开化、社会管理高效化</p>
+                <button class="js btn" onclick="clickMsg(4)">留言咨询</button>
+            </div>
+        </div>
+
+        <!-- 产品定位 -->
+        <div class="plan3 plan_item plan_pos">
+            <div class="container content">
+                <p class="word">一个实时、全面感知的民生大数据分析平台，利用语义分析、数据挖掘等大数据分析技术，实时发现诉求热点，为政府提供舆情监测等服务，为政府的科学决策提供重要的民意参考和依据。</p>
+                <div class="car-pic img js2 clearfix">
+                    <div class="c-left fl">
+                        <img src="images/minsheng_pic@2x.png" width="535px" alt="">
+                    </div>
+                    <div class="c-right fr">
+                        <div class="item item-icon1">
+                            <h3>平台首页模块。</h3>
+                            <p>运用直观明了的图表展示业务系统数据分析结果，包括诉求总体回复率、热词、来源分析、诉求分类、实时热点事件、市直单位承办量排名、行政区域承办量排名等，实现一屏总览全局。</p>
+                        </div>
+                        <div class="item item-icon2">
+                            <h3>市直单位综合库和行政区域分析库模块。</h3>
+                            <p>多角度、多维度、多形式的综合分析各单位的诉求处理情况，包括对各单位进行综合评分、按期回复率、群众满意度、诉求类别、诉求处理和反映人群画像等。</p>
+                        </div>
+                        <div class="item item-icon3">
+                            <h3>舆情事件库模块。</h3>
+                            <p>通过语义分析算法实现社会热点发现，并分析出热点事件的热度、持续时长、近7日发展趋势、历史解决方案，辅助领导前瞻性研判事态发展趋势，更高效及时地服务市民。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- 系统架构 -->
+        <div class="plan_item plan_pos plan_xtjg">
+            <div class="u-above">
+                <img class="bg-xtjg" src="images/beg@2x.jpg" alt="">
+                <div class="container content">
+                    <div class="desc">
+                        <h3 class="title">系统架构</h3>
+                        <p>
+                            <span class="bold">基础设施层（IaaS）：</span>
+                            <span>提供虚拟机或其他资源作为服务提供给用户，包括网络资源，主机，交换器，防火墙，桌面终端等。</span>
+                        </p>
+                        <p>
+                            <span class="bold">数据中心层（DaaS）：</span>
+                            <span>数据即服务层，主要作用是提供各种资源库。</span>
+                        </p>
+                        <p>
+                            <span class="bold">应用支撑层（PaaS）：</span>
+                            <span>即平台服务层，主要作用是将开发平台提供给用户。该层包括各种组件的定义和各种子功能等。</span>
+                        </p>
+                        <p>
+                            <span class="bold">应用层（SaaS）：</span>
+                            <span>软件即服务层，主要是PC端展示大数据分析结果。</span>
+                            </p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="u-below">
+                <div class="container content">
+                    <img class="img js3" src="./images/minsheng_jiagou.svg" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <!-- 核心技术 -->
+        <div class="plan3 plan_item plan_js">
+            <div class="container content">
+                <h3 class="title">核心技术</h3>
+                <p class="word">主要体现在通过自然语言技术自动生成舆情事件库，实现社会热点发现。</p>
+                <ul class="js_list clearfix">
+                    <li class="item fl">
+                        <span>数据清洗</span>
+                    </li>
+                    <li class="item fl">
+                        <span>分词</span>
+                    </li>
+                    <li class="item fl">
+                        <span>去停用词</span>
+                    </li>
+                    <li class="item fl">
+                        <span>文本的模型表示</span>
+                    </li>
+                    <li class="item fl">
+                        <span>文本相似度计算</span>
+                    </li>
+                    <li class="item fl">
+                        <span>聚类算法</span>
+                    </li>
+                    <li class="item fl">
+                        <span>热度计算</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 应用案例 -->
+        <div class="plan3 plan_item plan_pos plan_anli" style="background: #f8f9fa;">
+            <div class="container content">
+                <h3 class="title">应用案例</h3>
+                <div class="an_list">
+                    <div class="box item">
+                        <div class="img_box">
+                            <img src="./images/minsheng_anli@2x.jpg" alt="">
+                        </div>
+                        <div class="word_box">
+                            <p class="word_t">上饶市人民政府市长热线电话办公室</p>
+                            <p class="word_b">2018年9月正式交付使用</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 联系我们 -->
+        <div class="plan_concact">
+            <div class="container content">
+                <p class="word">如果您对民生大数据平台感兴趣，请与我们联系！</p>
+                <p class="tel"><span>0793-8161215</span></p>
+                <button class="btn" onclick="clickMsg(4)">留言咨询</button>
+            </div>
+        </div>
+
+        <!-- 公用返回顶部 -->
+        <div id="goTop"></div>
+
+        @@include('footer.html')
+    </div>
+
+    <script>
+        // 页面飞入动画效果
+        var items1 = document.querySelectorAll(".js");
+        var items2 = document.querySelectorAll(".js2");
+        var items3 = document.querySelectorAll(".js3");
+        // window.addEventListener("load", callbackFunc(items, 'fadeIn', 0));
+        window.onload = function() {
+            callbackFunc(items1, 'fadeIn', 0)
+            callbackFunc(items2, 'fadeIn', 300)
+            callbackFunc(items3, 'fadeIn', 400)
+        }
+        window.onscroll = function() {
+            callbackFunc(items1, 'fadeIn', 0)
+            callbackFunc(items2, 'fadeIn', 300)
+            callbackFunc(items3, 'fadeIn', 400)
+        }
+
+    </script>
+    <script src="./js/unit.js"></script>
+</body>
+</html>

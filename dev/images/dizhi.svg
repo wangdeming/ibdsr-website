@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>dizhi</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="联系我们" transform="translate(-1400.000000, -645.000000)">
+            <g id="dizhi" transform="translate(1400.000000, 645.000000)">
+                <circle id="Oval" fill="#737373" fill-rule="nonzero" cx="40" cy="40" r="40"></circle>
+                <g id="Group" transform="translate(26.000000, 27.000000)" stroke="#FFFFFF" stroke-width="2.5">
+                    <path d="M0,3.186 L0,22.4053333 C0,23.3386667 0.644,24.1486667 1.55333333,24.3586667 L8.16266667,25.884 C8.49333333,25.96 8.838,25.9513333 9.164,25.858 L17.5026667,23.4753333 C17.8286667,23.382 18.1733333,23.3733333 18.504,23.4493333 L24.212,24.7666667 C25.4673333,25.0566667 26.6666667,24.1026667 26.6666667,22.814 L26.6666667,3.594 C26.6666667,2.66133333 26.0226667,1.85133333 25.1133333,1.64133333 L18.504,0.116 C18.1733333,0.04 17.8286667,0.0486666667 17.5026667,0.142 L9.164,2.52466667 C8.838,2.618 8.49333333,2.62666667 8.16266667,2.55066667 L2.45466667,1.23333333 C1.19933333,0.943333333 0,1.89733333 0,3.186 L0,3.186 Z" id="Shape"></path>
+                    <path d="M8.66666667,3.33333333 L8.66666667,25.3333333" id="Shape"></path>
+                    <path d="M18,0.666666667 L18,22.6666667" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

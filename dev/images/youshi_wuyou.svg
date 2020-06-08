@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>youshi_wuyou</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="旅游大数据" transform="translate(-818.000000, -1535.000000)" stroke="#99A0CE">
+            <g id="youshi_wuyou" transform="translate(818.000000, 1535.000000)">
+                <use id="Oval-Copy-9" mask="url(#mask-2)" stroke-width="3" stroke-dasharray="4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M50.6588352,31.5800208 C47.2362318,26.5815735 40.5004543,29.5309679 40.5004543,34.6070308 C40.5004543,29.5309679 33.7642455,26.581331 30.3411569,31.5800208 C26.8033023,36.747646 30.2903235,45.7999946 40.5002386,51 C50.7096686,45.7999946 54.1966898,36.747646 50.6588352,31.5800208 Z" id="Like" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

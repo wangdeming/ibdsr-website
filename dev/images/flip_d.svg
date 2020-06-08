@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>flip_d</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="弹框" transform="translate(-1154.000000, -700.000000)" fill="#999999">
+            <g id="Group-10" transform="translate(670.000000, 490.000000)">
+                <g id="下-拉" transform="translate(459.000000, 210.000000)">
+                    <path d="M43.7947467,2.56885553 L35.5861163,11.5452158 C35.3408494,11.8242917 34.9872962,11.9842519 34.6157598,11.9842402 C34.2442777,11.9842402 33.8908068,11.8243902 33.6454034,11.5452158 L25.436773,2.56885553 C25.0360225,2.14559099 24.9121951,1.52870544 25.1193246,0.983864916 C25.326454,0.43902439 25.8262664,0.0585365854 26.4071295,0.00675422139 L42.817636,0.00675422139 C43.4007505,0.0562851782 43.9028143,0.434521576 44.1099437,0.981613508 C44.3193246,1.52870544 44.1954972,2.14333959 43.7947467,2.56885553 Z" id="flip_d"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

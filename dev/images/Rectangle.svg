@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="700px" viewBox="0 0 1920 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Rectangle Copy 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="48.6075846%" cy="57.717%" fx="48.6075846%" fy="57.717%" r="143.638548%" gradientTransform="translate(0.486076,0.577170),scale(0.364583,1.000000),rotate(179.181271),scale(1.000000,0.527467),translate(-0.486076,-0.577170)" id="radialGradient-1">
+            <stop stop-color="#000B34" stop-opacity="0.221439085" offset="0%"></stop>
+            <stop stop-color="#010F53" stop-opacity="0.254217618" offset="33.4204027%"></stop>
+            <stop stop-color="#000B44" stop-opacity="0.512341486" offset="64.3334538%"></stop>
+            <stop stop-color="#00062D" stop-opacity="0.580955616" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" fill="url(#radialGradient-1)" fill-rule="nonzero">
+            <g id="Group">
+                <g id="编组-3">
+                    <rect id="Rectangle-Copy-12" x="0" y="0" width="1920" height="700"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

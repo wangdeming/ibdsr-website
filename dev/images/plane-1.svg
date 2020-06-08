@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="72px" viewBox="0 0 103 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="7.28331934%" y1="87.2698686%" x2="100%" y2="7.7656476%" id="linearGradient-1">
+            <stop stop-color="#74BDDE" offset="0%"></stop>
+            <stop stop-color="#B9DEEF" offset="27.9455236%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="7.06301171%" y1="56.882692%" x2="99.0785406%" y2="41.6720303%" id="linearGradient-2">
+            <stop stop-color="#93CCE5" offset="0%"></stop>
+            <stop stop-color="#D1E9F4" offset="48.3847128%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="108.286916%" y1="54.9591014%" x2="0.927669034%" y2="43.8074872%" id="linearGradient-3">
+            <stop stop-color="#FFFDFD" offset="0%"></stop>
+            <stop stop-color="#ABCFE0" offset="67.6820896%"></stop>
+            <stop stop-color="#A8CDDF" offset="67.5449904%"></stop>
+            <stop stop-color="#5FA5C7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="53.498864%" y1="-28.7704739%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#69ABC2" offset="0%"></stop>
+            <stop stop-color="#8CC0D9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="培训网页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="学校简介" transform="translate(-1344.000000, -3949.000000)">
+            <g id="plane-1" transform="translate(1066.097656, 3948.028320)">
+                <g id="Group-3" transform="translate(277.000000, 0.000000)">
+                    <path d="M102.089355,1 L87.1098633,47.3076172 L78.0229492,51.7099609 L69.5968116,53.8306599 C69.3574047,53.890914 69.1114757,53.9213867 68.8646028,53.9213867 L60.2807617,53.9213867 L60.2807617,53.9213867 L44.5078125,48.7080078 L102.089355,1 Z" id="路径" fill="url(#linearGradient-1)"></path>
+                    <polygon id="路径-2" fill="url(#linearGradient-2)" points="102 1.76708984 15.0892859 28.966942 1 38.4746002 27.834943 43.7670898"></polygon>
+                    <path d="M102,1 L27.834943,43.7670898 C39.9208924,61.9666341 46.2799479,71.0664062 46.9121094,71.0664062 C47.5442708,71.0664062 46.7428385,63.6136068 44.5078125,48.7080078 L102,1 Z" id="路径-3" fill="url(#linearGradient-3)"></path>
+                    <polygon id="路径-4" fill="url(#linearGradient-4)" points="44.5078125 48.7080078 46.9121094 71.0664062 61.9262695 53.9213867 60.2807617 53.9213867"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

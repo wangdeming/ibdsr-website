@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('meta.html')
+    <title>领导关怀</title>
+    <link rel="stylesheet" href="css/newsInfo.css">
+
+    <!-- swiper图片插件 -->
+    <!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
+    <!-- <script src="js/swiper.min.js"></script> -->
+
+     <!-- 瀑布流 -->
+     
+</head>
+<body>
+    <div id="wrapper">
+        @@include('header.html',{"news": "active"})
+        <section id="news-info">
+            <div class="bg">
+                <ul class="clearfix">
+                </ul>
+                <div class="menu">
+                    <ul id="nav">
+                        <li>
+                            <a class="link" href="./newsInfo.html?nav=1">新闻动态</a>
+                        </li>
+                        <li>
+                            <a class="link" href="./newsInfo.html?nav=2">媒体报道</a>
+                        </li>
+                        <li>
+                            <a class="link" href="./newsInfo.html?nav=3">合作交流</a>
+                        </li>
+                        <li class="active">领导关怀</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="leader-event-list">
+                <div class="container">
+                    <div class="masonry clearfix" id="sortable">
+                        <div class="sortableLeft" id="sortableLeft">
+
+                        </div>
+                        <div class="sortableRight" id="sortableRight">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- 点击查看详情 -->
+        <div class="showDetail" id="showDetailBox" style="display: none;">
+            <div class="content" id="showDetail">
+                <div class="close" id="closeSwiper"></div>
+            </div>
+        </div>
+
+        <!-- 公用返回顶部 -->
+        <div id="goTop"></div>
+
+
+        @@include('footer.html')
+    </div>
+    <script type="text/javascript">
+
+        var showDetailDom = $("#showDetail")
+        var showDetailBox = $('#showDetailBox')
+        var curIndex = 1 //当前第几张图片
+
+        $("#closeSwiper").click(function(){
+            showDetailBox.hide()
+            curIndex = 1
+        })
+
+        
+
+        function prev() {
+            if(curIndex > 1) {
+                curIndex -- 
+                $("#swiperWrapper").css('transform', "translateX(-"+1000*(curIndex-1)+"px)")
+            } else {
+                return false
+            }
+            $('#curIndex').text(curIndex)
+        }
+        function next(length) {
+            if(curIndex < length) {
+                curIndex ++ 
+                $("#swiperWrapper").css('transform', "translateX(-"+1000*(curIndex-1)+"px)")
+            } else {
+                return false
+            }
+            $('#curIndex').text(curIndex)
+        }
+
+        function showDetail(id) {
+            var html = ''
+            $.axse({
+                url: 'api/leader/detail',
+                method: 'post',
+                data: {
+                    'leaderId': id
+                }
+            },function(res){
+                var data = res.data
+                if(res.code === 200 && data.imageList.length > 0) {
+                    var imgHtml = ''
+                    var length = data.imageList.length 
+                    var contentWord = data.content
+                    for(var i=0;i<length;i++) {
+                        imgHtml = imgHtml + "<div class='swiper-slide fl'>"+
+                                                "<img src="+(data.imageList[i]).imagePath+" alt=''>"+
+                                            "</div>"
+                    }
+                    if(length > 1) {
+                        html = html + "<div class='swiper-container' id='swiperBox'><div class='swiper-wrapper clearfix' id='swiperWrapper' style='width: "+length*100+"%'>"+
+                                    imgHtml +
+                                    "</div>"+
+                                    "<div class='swiper-pagination swiper-pagination-fraction'>"+
+                                        "<span class='swiper-pagination-current' id='curIndex'>1</span> / <span class='swiper-pagination-total'>"+length+"</span></div>"+
+                                        
+                                    "<div class='swiper-button-prev' onclick='prev()'></div>"+
+                                    "<div class='swiper-button-next' onclick='next("+length+")'></div>"+
+                                    "<div class='swiper-content-word'><div class='box'>"+contentWord+"</div></div>"+
+                                "</div>"
+                    } else {
+                        html = html + "<div class='swiper-container' id='swiperBox'><div class='swiper-wrapper clearfix' id='swiperWrapper' style='width: "+length*100+"%'>"+
+                                    imgHtml +
+                                    "</div>"+
+                                    "<div class='swiper-content-word'><div class='box'>"+contentWord+"</div></div>"+
+                                "</div>"
+                    }
+                    
+                    
+                    $('#swiperBox').remove()
+
+                    // swiper失效了，只有手写了
+                    var swiperBox = $("#swiperBox");
+                    var swiperWrapper = $("#swiperWrapper");
+
+                    showDetailDom.append(html)
+                    showDetailBox.show()
+                    
+                } else {
+                    return false
+                }
+            })
+        }
+
+        // 领导关怀
+        var htmlL = ''
+        $.axse(
+        {
+            url: '/api/leader/list',
+        },
+        function(data){
+            if(data.code === 200) {
+                laederList = data.data
+                var leftHtml = ''
+                var rightHtml = ''
+                var firstImg = ''
+                var content = ''
+                var showTime = ''
+                var id=''
+                for(var i=0;i<laederList.length;i++){
+                    firstImg = laederList[i].imageList[0] ? laederList[i].imageList[0].imagePath : '#'
+                    content = laederList[i].content
+                    showTime = laederList[i].showTime
+                    id = laederList[i].id
+                    if((i+1)%2 === 1) {
+                        leftHtml = leftHtml + "<div class='item white-panel fl'  id="+id+" onclick='showDetail("+id+")'>" +
+                                        "<div class='content'>" +
+                                            "<div class='img-box'>" +
+                                                "<img class='' src="+firstImg+">" +
+                                            " </div>" +
+                                            "<p class='info color-333'>"+content+"</p>" +
+                                            "<p class='time color-666'>"+showTime+"</p>" +
+                                        "</div>" +
+                                    "</div>"
+                    }
+                    else if ((i+1)%2 === 0) {
+                        rightHtml = rightHtml + "<div class='item white-panel fl'  id="+id+" onclick='showDetail("+id+")'>" +
+                                        "<div class='content'>" +
+                                            "<div class='img-box'>" +
+                                                "<img class='' src="+firstImg+">" +
+                                            " </div>" +
+                                            "<p class='info color-333'>"+content+"</p>" +
+                                            "<p class='time color-666'>"+showTime+"</p>" +
+                                        "</div>" +
+                                    "</div>"
+                    }
+                }
+            }
+            
+            $("#sortableLeft").append(leftHtml)
+            $("#sortableRight").append(rightHtml)
+
+            if(location.hash) {
+                $("html").animate({scrollTop:$(location.hash).offset().top},'linear').finish()
+            }
+            
+            var goTop = $("#goTop")
+            var showGoTopPos = 600 //滚动到600px时显示返回顶部按钮
+            var scrollTop = 0
+            var allHeight = $(document).height()
+            var clentHeight = $(window).height()
+            var footerHeight = $('#footer').height()
+            
+            window.onscroll = function(){
+                setTimeout(function(){
+                    scrollTop = $(document).scrollTop()
+                    if(scrollTop > showGoTopPos) {
+                        goTop.css('opacity', 1)
+                        if(allHeight - clentHeight - scrollTop > 100) {
+                            goTop.css('position', 'fixed').css('bottom', '50px')
+                        } else {
+                            goTop.css('positon', 'absolute').css('bottom', footerHeight+50+'px')
+                        }
+                    } else {
+                        goTop.css('opacity', 0)
+                    }
+                }, 30)
+            }
+            
+        })
+
+   </script>
+</body>
+    
+</html>

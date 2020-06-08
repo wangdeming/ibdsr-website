@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('meta.html')
+    <title>新能源汽车产业分析</title>
+    <link rel="stylesheet" href="css/plan.css">
+</head>
+<body>
+    <!-- 类名公用(解决方案公用类名) -->
+    <div id="wrapper" class="plan">
+        @@include('header.html',{"jjfa": "active"})
+        <div class="plan_ad">
+            <img class="img_ad" src="images/xinnengyuan_banner@2x.jpg" alt="">
+            <div class="desc">
+                <h2 class="js">新能源汽车产业分析</h2>
+                <p class="js">通过“一库、一网站、六模块”，分析全网新能源汽车相关问题，为管理者提供辅助招商决策的服务。</p>
+                <button class="js btn" onclick="clickMsg(6)">留言咨询</button>
+            </div>
+        </div>
+
+        <!-- 产品定位 -->
+        <div class="plan5 plan_item plan_pos plan_jg">
+            <div class="container content">
+                <h2 class="title" style="margin-bottom: 40px;">一库    一网站   六模块</h2>
+                <div class="rotate clearfix" id="scalc">
+                    <div class="item item1 fl">
+                        <div class="box">
+                            <div class="icon_img"></div>
+                            <h4 class="name">新能源汽车数据库</h4>
+                            <p class="desc">通过大数据技术，对新能源汽车以及与之有关的产业链数据，进行采集并集中到新能源汽车产业分析系统，形成新能源汽车数据库。</p>
+                        </div>    
+                    </div>
+                    <div class="item item2 fl active">
+                        <div class="box">
+                            <div class="icon_img"></div>
+                            <h4 class="name">新能源汽车网</h4>
+                            <p class="desc">以网站的形式进行展示，为新能源汽车行业、企业、消费者提供全方位的新能源产业资讯，为新能源汽车产业方面的工业园区管理者提供辅助招商决策，实现快速精准招商。</p>
+                        </div>  
+                    </div>
+                    <div class="item item3 fl">
+                        <div class="box">
+                            <div class="icon_img"></div>
+                            <h4 class="name">六大模块</h4>
+                            <p class="desc">首页、产业概况、宏观总览、省市分析、产业链以及相关政策</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 系统架构 -->
+        <div class="plan_item plan_pos" style="background: #fff;">
+            <div class="container content">
+                <h2 class="title" style="margin-bottom: 40px;">系统架构</h2>
+                <img class="img js3" src="images/xinengyuan_jiagou.svg" alt="">
+            </div>
+        </div>
+
+        
+        <!-- 产品技术 -->
+        <div class="plan5 plan_special">
+            <img class="img" src="images/xinnengyuan_ad.jpg" alt="">
+            <div class="content clearfix">
+                <div class="fl part">
+                    <div class="front">
+                        <p class="">核心技术一</p>
+                        <p class="detail">灰色关联分析</p>
+                    </div>
+                    <div class="behide">
+                        <div class="word">
+                            <p>灰色关联分析的理论依据是空间理论，主要原则有四个：规范性、接近性、整体性以及偶对称性，通过对各组方案的比较和分析来得到两个数据行为序列（即系统数据行为序列和影响因子数据行为比较序列）的关联度与关联系数。</p>
+                            <p>在灰色系统理论中，关联度是一个基本概念，是对子系统之间相关性大小的一种度量。关联度是随着因素发展走势相似度的增大而增大的。因此，灰色关联法可以分析各个因素之间的主要关系，并找出影响最后的目标值的关键因素，使预测值的准确度更高。</p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="fl part">
+                    <div class="front">
+                        <p class="">核心技术二</p>
+                        <p class="detail">支持向量机（SVM）</p>
+                    </div>
+                    <div class="behide">
+                        <div class="word">
+                            <p>主要思想为当在低维的空间中遇到线性不可分的问题时，可以运用内积函数将低维空间的信息映射到一个高维乃至无穷维的特征空间中，然后在高维空间中进行分类或者回归训练。因而样本数据在高维特征空间内中进行超平面的分隔后，就有效的避免了在低维空间中进行非线性曲面的分隔计算。</p>
+                            <p>使用支持向量机后得到的这些分类函数主要是以支持向量为参数的非线性函数的所有线性组合，因此函数的复杂度与支持向量的数量有关，与特征空间的维度无关。</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 应用案例 -->
+        <div class="plan5 plan_item plan_pos plan_anli">
+            <div class="container content">
+                <h2 class="title">应用案例</h2>
+                <div class="link"><a href="http://ne.ibdsr.cn" target="_blank">ne.ibdsr.cn</a></div>
+                <div class="img_box js js3">
+                    <img src="./images/anli@2x.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 联系我们 -->
+        <div class="plan_concact">
+            <div class="container content">
+                <p class="word">如果您对新能源汽车产业的分析感兴趣，请与我们联系！</p>
+                <p class="tel"><span>0793-8161215</span></p>
+                <button class="btn" onclick="clickMsg(6)">留言咨询</button>
+            </div>
+        </div>
+
+        <!-- 公用返回顶部 -->
+        <div id="goTop"></div>
+
+        @@include('footer.html')
+    </div>
+
+    <script>
+        // 页面飞入动画效果
+        var items1 = document.querySelectorAll(".js");
+        var items2 = document.querySelectorAll(".js2");
+        var items3 = document.querySelectorAll(".js3");
+        // window.addEventListener("load", callbackFunc(items, 'fadeIn', 0));
+        window.onload = function() {
+            callbackFunc(items1, 'fadeIn', 0)
+            callbackFunc(items2, 'fadeIn', 400)
+            callbackFunc(items3, 'fadeIn', 700)
+        }
+        window.onscroll = function() {
+            callbackFunc(items1, 'fadeIn', 0)
+            callbackFunc(items2, 'fadeIn', 400)
+            callbackFunc(items3, 'fadeIn', 700)
+        }
+
+        var scalcItem = $('#scalc').find('.item');
+        scalcItem.mouseover(function(){
+            for(var i=0;i<scalcItem.length;i++) {
+                scalcItem.eq(i).removeClass('active')
+            }
+            $(this).addClass('active')
+        });
+        $('#scalc').mouseleave(function(){
+            for(var i=0;i<scalcItem.length;i++) {
+                scalcItem.eq(i).removeClass('active')
+            }
+            scalcItem.eq(1).addClass('active')
+        });
+    </script>
+    <script src="./js/unit.js"></script>
+</body>
+</html>
